@@ -1,0 +1,4095 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e09bafa6fe5e2f9c5a54eddba909b4e5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e09bafa6fe5e2f9c5a54eddba909b4e5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e09bafa6fe5e2f9c5a54eddba909b4e5 = L.map(
+                "map_e09bafa6fe5e2f9c5a54eddba909b4e5",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6a098336f0888819130f2eaebfc34e0a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6a098336f0888819130f2eaebfc34e0a.addTo(map_e09bafa6fe5e2f9c5a54eddba909b4e5);
+        
+    
+            var feature_group_0b6c488830974639b31204c1ae74f41a = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_f6b903f061eb3a4299286913e8d31536 = L.circleMarker(
+                [32.806671, -86.79113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 41.583395, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_3f660bd39d1894ccaf6576dd98c64391 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bca5167a2f1ed07eab5eccf9400dacfb = $(`<div id="html_bca5167a2f1ed07eab5eccf9400dacfb" style="width: 100.0%; height: 100.0%;"><b>Alabama</b><br>avg.list price: 415,833.95</div>`)[0];
+                popup_3f660bd39d1894ccaf6576dd98c64391.setContent(html_bca5167a2f1ed07eab5eccf9400dacfb);
+            
+        
+
+        circle_marker_f6b903f061eb3a4299286913e8d31536.bindPopup(popup_3f660bd39d1894ccaf6576dd98c64391)
+        ;
+
+        
+    
+    
+            circle_marker_f6b903f061eb3a4299286913e8d31536.bindTooltip(
+                `<div>
+                     Alabama: avg.list price = 415,833.95
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a9b72eb9ba77315a26845ccbfc3dda22 = L.circleMarker(
+                [61.370716, -152.404419],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50.27603963819096, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_61161fc952a6bc27cb7b8b60f2cd4d7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c78cfb99557c27a9ffb20235d35d5af = $(`<div id="html_1c78cfb99557c27a9ffb20235d35d5af" style="width: 100.0%; height: 100.0%;"><b>Alaska</b><br>avg.list price: 502,760.40</div>`)[0];
+                popup_61161fc952a6bc27cb7b8b60f2cd4d7f.setContent(html_1c78cfb99557c27a9ffb20235d35d5af);
+            
+        
+
+        circle_marker_a9b72eb9ba77315a26845ccbfc3dda22.bindPopup(popup_61161fc952a6bc27cb7b8b60f2cd4d7f)
+        ;
+
+        
+    
+    
+            circle_marker_a9b72eb9ba77315a26845ccbfc3dda22.bindTooltip(
+                `<div>
+                     Alaska: avg.list price = 502,760.40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00091466a52ceb2dd98b302dcef095dd = L.circleMarker(
+                [33.729759, -111.431221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 84.46324, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_d24b98255f27f8b5600837d937f438f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de2364706db707c8567c1dab189a155c = $(`<div id="html_de2364706db707c8567c1dab189a155c" style="width: 100.0%; height: 100.0%;"><b>Arizona</b><br>avg.list price: 844,632.40</div>`)[0];
+                popup_d24b98255f27f8b5600837d937f438f8.setContent(html_de2364706db707c8567c1dab189a155c);
+            
+        
+
+        circle_marker_00091466a52ceb2dd98b302dcef095dd.bindPopup(popup_d24b98255f27f8b5600837d937f438f8)
+        ;
+
+        
+    
+    
+            circle_marker_00091466a52ceb2dd98b302dcef095dd.bindTooltip(
+                `<div>
+                     Arizona: avg.list price = 844,632.40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f9b66a0a414b62f3a8c9494f95993b65 = L.circleMarker(
+                [34.969704, -92.373123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 34.317945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_b7004ae3f5cde18f17a7ecf2627fc362 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a8923f2f66cffffd2a50b85f8e45f7a = $(`<div id="html_8a8923f2f66cffffd2a50b85f8e45f7a" style="width: 100.0%; height: 100.0%;"><b>Arkansas</b><br>avg.list price: 343,179.45</div>`)[0];
+                popup_b7004ae3f5cde18f17a7ecf2627fc362.setContent(html_8a8923f2f66cffffd2a50b85f8e45f7a);
+            
+        
+
+        circle_marker_f9b66a0a414b62f3a8c9494f95993b65.bindPopup(popup_b7004ae3f5cde18f17a7ecf2627fc362)
+        ;
+
+        
+    
+    
+            circle_marker_f9b66a0a414b62f3a8c9494f95993b65.bindTooltip(
+                `<div>
+                     Arkansas: avg.list price = 343,179.45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c201e2557290e25d27ee6a164abf82d8 = L.circleMarker(
+                [36.116203, -119.681564],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 110.55838, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_4fd080ee93ad4ef0f912589714e7e6a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c34962e129b04ea242fefe762feb9e97 = $(`<div id="html_c34962e129b04ea242fefe762feb9e97" style="width: 100.0%; height: 100.0%;"><b>California</b><br>avg.list price: 1,105,583.80</div>`)[0];
+                popup_4fd080ee93ad4ef0f912589714e7e6a8.setContent(html_c34962e129b04ea242fefe762feb9e97);
+            
+        
+
+        circle_marker_c201e2557290e25d27ee6a164abf82d8.bindPopup(popup_4fd080ee93ad4ef0f912589714e7e6a8)
+        ;
+
+        
+    
+    
+            circle_marker_c201e2557290e25d27ee6a164abf82d8.bindTooltip(
+                `<div>
+                     California: avg.list price = 1,105,583.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e3cc97bfddd550d2d8322b01fb6a91f6 = L.circleMarker(
+                [39.059811, -105.311104],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 63.46535, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_cec5e041488bbc34a69890e750969d0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9667babb520090e5b87577f7c67dd9d9 = $(`<div id="html_9667babb520090e5b87577f7c67dd9d9" style="width: 100.0%; height: 100.0%;"><b>Colorado</b><br>avg.list price: 634,653.50</div>`)[0];
+                popup_cec5e041488bbc34a69890e750969d0c.setContent(html_9667babb520090e5b87577f7c67dd9d9);
+            
+        
+
+        circle_marker_e3cc97bfddd550d2d8322b01fb6a91f6.bindPopup(popup_cec5e041488bbc34a69890e750969d0c)
+        ;
+
+        
+    
+    
+            circle_marker_e3cc97bfddd550d2d8322b01fb6a91f6.bindTooltip(
+                `<div>
+                     Colorado: avg.list price = 634,653.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cd477e5ffeed91b5853d7a62072667fb = L.circleMarker(
+                [41.597782, -72.755371],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 103.112875, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_946366f984c9c6a240b22578dcdcdfb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf6ccdcb4498f665d3bebb01da61143c = $(`<div id="html_bf6ccdcb4498f665d3bebb01da61143c" style="width: 100.0%; height: 100.0%;"><b>Connecticut</b><br>avg.list price: 1,031,128.75</div>`)[0];
+                popup_946366f984c9c6a240b22578dcdcdfb2.setContent(html_bf6ccdcb4498f665d3bebb01da61143c);
+            
+        
+
+        circle_marker_cd477e5ffeed91b5853d7a62072667fb.bindPopup(popup_946366f984c9c6a240b22578dcdcdfb2)
+        ;
+
+        
+    
+    
+            circle_marker_cd477e5ffeed91b5853d7a62072667fb.bindTooltip(
+                `<div>
+                     Connecticut: avg.list price = 1,031,128.75
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a73536da38d4616c902106177a88377 = L.circleMarker(
+                [39.318523, -75.507141],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 69.88395, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_15986e8b4455dfb7c95a69993d5fe0a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f26209269d1f83f7668262dfea1e09e = $(`<div id="html_4f26209269d1f83f7668262dfea1e09e" style="width: 100.0%; height: 100.0%;"><b>Delaware</b><br>avg.list price: 698,839.50</div>`)[0];
+                popup_15986e8b4455dfb7c95a69993d5fe0a0.setContent(html_4f26209269d1f83f7668262dfea1e09e);
+            
+        
+
+        circle_marker_2a73536da38d4616c902106177a88377.bindPopup(popup_15986e8b4455dfb7c95a69993d5fe0a0)
+        ;
+
+        
+    
+    
+            circle_marker_2a73536da38d4616c902106177a88377.bindTooltip(
+                `<div>
+                     Delaware: avg.list price = 698,839.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2b392a29b240e5c22602bfd5d7b3f03a = L.circleMarker(
+                [27.766279, -81.686783],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 55.920345, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_fc27c5525210e1232afc9a9f0bdcb50e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f3d31e0fa66a871c701b0eda2631bec = $(`<div id="html_6f3d31e0fa66a871c701b0eda2631bec" style="width: 100.0%; height: 100.0%;"><b>Florida</b><br>avg.list price: 559,203.45</div>`)[0];
+                popup_fc27c5525210e1232afc9a9f0bdcb50e.setContent(html_6f3d31e0fa66a871c701b0eda2631bec);
+            
+        
+
+        circle_marker_2b392a29b240e5c22602bfd5d7b3f03a.bindPopup(popup_fc27c5525210e1232afc9a9f0bdcb50e)
+        ;
+
+        
+    
+    
+            circle_marker_2b392a29b240e5c22602bfd5d7b3f03a.bindTooltip(
+                `<div>
+                     Florida: avg.list price = 559,203.45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4e3790cd98214cb3cfa1c0013ad359b = L.circleMarker(
+                [33.040619, -83.643074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 52.44446, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_ae2a436280f4d09558b9a90b2e074ecf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a7f14a0be60cf9c71a98bcde2ca24f9 = $(`<div id="html_6a7f14a0be60cf9c71a98bcde2ca24f9" style="width: 100.0%; height: 100.0%;"><b>Georgia</b><br>avg.list price: 524,444.60</div>`)[0];
+                popup_ae2a436280f4d09558b9a90b2e074ecf.setContent(html_6a7f14a0be60cf9c71a98bcde2ca24f9);
+            
+        
+
+        circle_marker_a4e3790cd98214cb3cfa1c0013ad359b.bindPopup(popup_ae2a436280f4d09558b9a90b2e074ecf)
+        ;
+
+        
+    
+    
+            circle_marker_a4e3790cd98214cb3cfa1c0013ad359b.bindTooltip(
+                `<div>
+                     Georgia: avg.list price = 524,444.60
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6d35bc45d88f912e7735e2c43a6f3f0 = L.circleMarker(
+                [21.094318, -157.498337],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 85.8975, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_b980514d1b7bee612caec97fbbe62d52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b14260f46e70a92c9258c6bf340e6e9b = $(`<div id="html_b14260f46e70a92c9258c6bf340e6e9b" style="width: 100.0%; height: 100.0%;"><b>Hawaii</b><br>avg.list price: 858,975.00</div>`)[0];
+                popup_b980514d1b7bee612caec97fbbe62d52.setContent(html_b14260f46e70a92c9258c6bf340e6e9b);
+            
+        
+
+        circle_marker_c6d35bc45d88f912e7735e2c43a6f3f0.bindPopup(popup_b980514d1b7bee612caec97fbbe62d52)
+        ;
+
+        
+    
+    
+            circle_marker_c6d35bc45d88f912e7735e2c43a6f3f0.bindTooltip(
+                `<div>
+                     Hawaii: avg.list price = 858,975.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ee41ca6000fedb36d29bd19b244042f = L.circleMarker(
+                [44.240459, -114.478828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 58.252759999999995, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_1e40861f01e44718742b892ed5536db8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_737dccf43f23b616ea927dbaf783ddc9 = $(`<div id="html_737dccf43f23b616ea927dbaf783ddc9" style="width: 100.0%; height: 100.0%;"><b>Idaho</b><br>avg.list price: 582,527.60</div>`)[0];
+                popup_1e40861f01e44718742b892ed5536db8.setContent(html_737dccf43f23b616ea927dbaf783ddc9);
+            
+        
+
+        circle_marker_9ee41ca6000fedb36d29bd19b244042f.bindPopup(popup_1e40861f01e44718742b892ed5536db8)
+        ;
+
+        
+    
+    
+            circle_marker_9ee41ca6000fedb36d29bd19b244042f.bindTooltip(
+                `<div>
+                     Idaho: avg.list price = 582,527.60
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44fae6f5dac99df11bfeb7c4a0dac173 = L.circleMarker(
+                [40.349457, -88.986137],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45.36892, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_afd033a449d2864d6f39e2ddc8b406a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd581f4250849c7d66f78327b68687f2 = $(`<div id="html_fd581f4250849c7d66f78327b68687f2" style="width: 100.0%; height: 100.0%;"><b>Illinois</b><br>avg.list price: 453,689.20</div>`)[0];
+                popup_afd033a449d2864d6f39e2ddc8b406a3.setContent(html_fd581f4250849c7d66f78327b68687f2);
+            
+        
+
+        circle_marker_44fae6f5dac99df11bfeb7c4a0dac173.bindPopup(popup_afd033a449d2864d6f39e2ddc8b406a3)
+        ;
+
+        
+    
+    
+            circle_marker_44fae6f5dac99df11bfeb7c4a0dac173.bindTooltip(
+                `<div>
+                     Illinois: avg.list price = 453,689.20
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_27679395b0ad900bb4408c42e0d37e57 = L.circleMarker(
+                [39.849426, -86.258278],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 37.26847, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_28ecd03739953d13ac802470ebbc52f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a452996e7f785653e43290315c5cc8a = $(`<div id="html_1a452996e7f785653e43290315c5cc8a" style="width: 100.0%; height: 100.0%;"><b>Indiana</b><br>avg.list price: 372,684.70</div>`)[0];
+                popup_28ecd03739953d13ac802470ebbc52f4.setContent(html_1a452996e7f785653e43290315c5cc8a);
+            
+        
+
+        circle_marker_27679395b0ad900bb4408c42e0d37e57.bindPopup(popup_28ecd03739953d13ac802470ebbc52f4)
+        ;
+
+        
+    
+    
+            circle_marker_27679395b0ad900bb4408c42e0d37e57.bindTooltip(
+                `<div>
+                     Indiana: avg.list price = 372,684.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acf35a71d5d92e43eb87edb0e41cc272 = L.circleMarker(
+                [42.011539, -93.210526],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 33.724885, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_5810ab086235675c9e08ecf63d324fb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d954e3a07436d9e6ed98d6748ce6542f = $(`<div id="html_d954e3a07436d9e6ed98d6748ce6542f" style="width: 100.0%; height: 100.0%;"><b>Iowa</b><br>avg.list price: 337,248.85</div>`)[0];
+                popup_5810ab086235675c9e08ecf63d324fb8.setContent(html_d954e3a07436d9e6ed98d6748ce6542f);
+            
+        
+
+        circle_marker_acf35a71d5d92e43eb87edb0e41cc272.bindPopup(popup_5810ab086235675c9e08ecf63d324fb8)
+        ;
+
+        
+    
+    
+            circle_marker_acf35a71d5d92e43eb87edb0e41cc272.bindTooltip(
+                `<div>
+                     Iowa: avg.list price = 337,248.85
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45104b2c71d0e4dee6f939bf16221d3f = L.circleMarker(
+                [38.5266, -96.726486],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 69.99844499999999, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_9b5fedcdc4226b0d5bbacf750033b3b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ffb0c39ec32cb6d24633f1cd0d52691 = $(`<div id="html_2ffb0c39ec32cb6d24633f1cd0d52691" style="width: 100.0%; height: 100.0%;"><b>Kansas</b><br>avg.list price: 699,984.45</div>`)[0];
+                popup_9b5fedcdc4226b0d5bbacf750033b3b5.setContent(html_2ffb0c39ec32cb6d24633f1cd0d52691);
+            
+        
+
+        circle_marker_45104b2c71d0e4dee6f939bf16221d3f.bindPopup(popup_9b5fedcdc4226b0d5bbacf750033b3b5)
+        ;
+
+        
+    
+    
+            circle_marker_45104b2c71d0e4dee6f939bf16221d3f.bindTooltip(
+                `<div>
+                     Kansas: avg.list price = 699,984.45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df8924d82648d6d906e4bc6a913d2d3a = L.circleMarker(
+                [37.66814, -84.670067],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 34.674655, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_741c98d5b31f42a8016ee232b6f4aece = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a4732717949bbf931da2d496bde6e2c = $(`<div id="html_1a4732717949bbf931da2d496bde6e2c" style="width: 100.0%; height: 100.0%;"><b>Kentucky</b><br>avg.list price: 346,746.55</div>`)[0];
+                popup_741c98d5b31f42a8016ee232b6f4aece.setContent(html_1a4732717949bbf931da2d496bde6e2c);
+            
+        
+
+        circle_marker_df8924d82648d6d906e4bc6a913d2d3a.bindPopup(popup_741c98d5b31f42a8016ee232b6f4aece)
+        ;
+
+        
+    
+    
+            circle_marker_df8924d82648d6d906e4bc6a913d2d3a.bindTooltip(
+                `<div>
+                     Kentucky: avg.list price = 346,746.55
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_98d8a65da3aa42d53a3c5ee05b90a125 = L.circleMarker(
+                [31.169546, -91.867805],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.28779, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_31a03b0344d300026222deb6ddc679a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4a158d6496b653880ee105772c88440 = $(`<div id="html_d4a158d6496b653880ee105772c88440" style="width: 100.0%; height: 100.0%;"><b>Louisiana</b><br>avg.list price: 272,877.90</div>`)[0];
+                popup_31a03b0344d300026222deb6ddc679a6.setContent(html_d4a158d6496b653880ee105772c88440);
+            
+        
+
+        circle_marker_98d8a65da3aa42d53a3c5ee05b90a125.bindPopup(popup_31a03b0344d300026222deb6ddc679a6)
+        ;
+
+        
+    
+    
+            circle_marker_98d8a65da3aa42d53a3c5ee05b90a125.bindTooltip(
+                `<div>
+                     Louisiana: avg.list price = 272,877.90
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66ac0b345f9d51dbeada08b7b3d59d17 = L.circleMarker(
+                [44.693947, -69.381927],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 67.75775, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_17332f7e509610d424091a8596f55232 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9d1f02d8fcef937ab320e028a2aa9f1 = $(`<div id="html_e9d1f02d8fcef937ab320e028a2aa9f1" style="width: 100.0%; height: 100.0%;"><b>Maine</b><br>avg.list price: 677,577.50</div>`)[0];
+                popup_17332f7e509610d424091a8596f55232.setContent(html_e9d1f02d8fcef937ab320e028a2aa9f1);
+            
+        
+
+        circle_marker_66ac0b345f9d51dbeada08b7b3d59d17.bindPopup(popup_17332f7e509610d424091a8596f55232)
+        ;
+
+        
+    
+    
+            circle_marker_66ac0b345f9d51dbeada08b7b3d59d17.bindTooltip(
+                `<div>
+                     Maine: avg.list price = 677,577.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bfd28b96538e5c307b32d60835239f6e = L.circleMarker(
+                [39.063946, -76.802101],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 63.542935, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_e81c05ecb657ad278facefd27b61dbe7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6fbb4f6b8cc996bfa4c63c61f2216d4 = $(`<div id="html_d6fbb4f6b8cc996bfa4c63c61f2216d4" style="width: 100.0%; height: 100.0%;"><b>Maryland</b><br>avg.list price: 635,429.35</div>`)[0];
+                popup_e81c05ecb657ad278facefd27b61dbe7.setContent(html_d6fbb4f6b8cc996bfa4c63c61f2216d4);
+            
+        
+
+        circle_marker_bfd28b96538e5c307b32d60835239f6e.bindPopup(popup_e81c05ecb657ad278facefd27b61dbe7)
+        ;
+
+        
+    
+    
+            circle_marker_bfd28b96538e5c307b32d60835239f6e.bindTooltip(
+                `<div>
+                     Maryland: avg.list price = 635,429.35
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_98b1ac07e88cc5178c089e55fba0b8c9 = L.circleMarker(
+                [42.230171, -71.530106],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 130.57725, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_32f195b41f985658c910c870935fa8a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78fc0e8fa51c74477e7fcfcb95382c97 = $(`<div id="html_78fc0e8fa51c74477e7fcfcb95382c97" style="width: 100.0%; height: 100.0%;"><b>Massachusetts</b><br>avg.list price: 1,305,772.50</div>`)[0];
+                popup_32f195b41f985658c910c870935fa8a0.setContent(html_78fc0e8fa51c74477e7fcfcb95382c97);
+            
+        
+
+        circle_marker_98b1ac07e88cc5178c089e55fba0b8c9.bindPopup(popup_32f195b41f985658c910c870935fa8a0)
+        ;
+
+        
+    
+    
+            circle_marker_98b1ac07e88cc5178c089e55fba0b8c9.bindTooltip(
+                `<div>
+                     Massachusetts: avg.list price = 1,305,772.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6ea684f9e76c3dc960261bec2f3ec860 = L.circleMarker(
+                [43.326618, -84.536095],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 48.95125, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_bb3ac76ec92d1deb9950c32b4b0fa5be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_beaf02915310fe07fbaffe7c1ba3a92f = $(`<div id="html_beaf02915310fe07fbaffe7c1ba3a92f" style="width: 100.0%; height: 100.0%;"><b>Michigan</b><br>avg.list price: 489,512.50</div>`)[0];
+                popup_bb3ac76ec92d1deb9950c32b4b0fa5be.setContent(html_beaf02915310fe07fbaffe7c1ba3a92f);
+            
+        
+
+        circle_marker_6ea684f9e76c3dc960261bec2f3ec860.bindPopup(popup_bb3ac76ec92d1deb9950c32b4b0fa5be)
+        ;
+
+        
+    
+    
+            circle_marker_6ea684f9e76c3dc960261bec2f3ec860.bindTooltip(
+                `<div>
+                     Michigan: avg.list price = 489,512.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f90b967d7c65e74a7882a54803defe2 = L.circleMarker(
+                [45.694454, -93.900192],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39.837465, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_b9db5bc2d37541a6428db25595650a68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8952c80d6d5aed08a8df347e48b52c78 = $(`<div id="html_8952c80d6d5aed08a8df347e48b52c78" style="width: 100.0%; height: 100.0%;"><b>Minnesota</b><br>avg.list price: 398,374.65</div>`)[0];
+                popup_b9db5bc2d37541a6428db25595650a68.setContent(html_8952c80d6d5aed08a8df347e48b52c78);
+            
+        
+
+        circle_marker_8f90b967d7c65e74a7882a54803defe2.bindPopup(popup_b9db5bc2d37541a6428db25595650a68)
+        ;
+
+        
+    
+    
+            circle_marker_8f90b967d7c65e74a7882a54803defe2.bindTooltip(
+                `<div>
+                     Minnesota: avg.list price = 398,374.65
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8142ebbfe1508169ad812babe6cca338 = L.circleMarker(
+                [32.741646, -89.678696],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 34.55105, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_9bb264993df16a3fd5450d6db2e39297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaae7d26119cb5372e99ed332b32054f = $(`<div id="html_aaae7d26119cb5372e99ed332b32054f" style="width: 100.0%; height: 100.0%;"><b>Mississippi</b><br>avg.list price: 345,510.50</div>`)[0];
+                popup_9bb264993df16a3fd5450d6db2e39297.setContent(html_aaae7d26119cb5372e99ed332b32054f);
+            
+        
+
+        circle_marker_8142ebbfe1508169ad812babe6cca338.bindPopup(popup_9bb264993df16a3fd5450d6db2e39297)
+        ;
+
+        
+    
+    
+            circle_marker_8142ebbfe1508169ad812babe6cca338.bindTooltip(
+                `<div>
+                     Mississippi: avg.list price = 345,510.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a7336bb5cb920fd3703c79e409631a5e = L.circleMarker(
+                [38.456085, -92.288368],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 43.591375, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_d679911e08c29f756725db810152d4d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c1840119369fc043cfe6813df7cd7ba = $(`<div id="html_1c1840119369fc043cfe6813df7cd7ba" style="width: 100.0%; height: 100.0%;"><b>Missouri</b><br>avg.list price: 435,913.75</div>`)[0];
+                popup_d679911e08c29f756725db810152d4d4.setContent(html_1c1840119369fc043cfe6813df7cd7ba);
+            
+        
+
+        circle_marker_a7336bb5cb920fd3703c79e409631a5e.bindPopup(popup_d679911e08c29f756725db810152d4d4)
+        ;
+
+        
+    
+    
+            circle_marker_a7336bb5cb920fd3703c79e409631a5e.bindTooltip(
+                `<div>
+                     Missouri: avg.list price = 435,913.75
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9118a6f26d3e636777630d8c31c09a56 = L.circleMarker(
+                [46.921925, -110.454353],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 72.028, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_f349d1b8a4ef72b3f3e8a06b5db3945f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85562c612dcfedfe39bf9f11e13ae75c = $(`<div id="html_85562c612dcfedfe39bf9f11e13ae75c" style="width: 100.0%; height: 100.0%;"><b>Montana</b><br>avg.list price: 720,280.00</div>`)[0];
+                popup_f349d1b8a4ef72b3f3e8a06b5db3945f.setContent(html_85562c612dcfedfe39bf9f11e13ae75c);
+            
+        
+
+        circle_marker_9118a6f26d3e636777630d8c31c09a56.bindPopup(popup_f349d1b8a4ef72b3f3e8a06b5db3945f)
+        ;
+
+        
+    
+    
+            circle_marker_9118a6f26d3e636777630d8c31c09a56.bindTooltip(
+                `<div>
+                     Montana: avg.list price = 720,280.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b347324724f12bed45835602bcb1fde2 = L.circleMarker(
+                [41.12537, -98.268082],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.924565, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_ed9718fa4904479c06e09faf123a9a5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7365ebf2d3d81e0734f2739f0161af7 = $(`<div id="html_c7365ebf2d3d81e0734f2739f0161af7" style="width: 100.0%; height: 100.0%;"><b>Nebraska</b><br>avg.list price: 309,245.65</div>`)[0];
+                popup_ed9718fa4904479c06e09faf123a9a5f.setContent(html_c7365ebf2d3d81e0734f2739f0161af7);
+            
+        
+
+        circle_marker_b347324724f12bed45835602bcb1fde2.bindPopup(popup_ed9718fa4904479c06e09faf123a9a5f)
+        ;
+
+        
+    
+    
+            circle_marker_b347324724f12bed45835602bcb1fde2.bindTooltip(
+                `<div>
+                     Nebraska: avg.list price = 309,245.65
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66d02da72eef8affaaa2ef5f5189cd46 = L.circleMarker(
+                [38.313515, -117.055374],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 63.327009999999994, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_932ee1620e4362446a8aa5ab4fcbb7be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ab2eea457648d663ff564a3884e4059 = $(`<div id="html_0ab2eea457648d663ff564a3884e4059" style="width: 100.0%; height: 100.0%;"><b>Nevada</b><br>avg.list price: 633,270.10</div>`)[0];
+                popup_932ee1620e4362446a8aa5ab4fcbb7be.setContent(html_0ab2eea457648d663ff564a3884e4059);
+            
+        
+
+        circle_marker_66d02da72eef8affaaa2ef5f5189cd46.bindPopup(popup_932ee1620e4362446a8aa5ab4fcbb7be)
+        ;
+
+        
+    
+    
+            circle_marker_66d02da72eef8affaaa2ef5f5189cd46.bindTooltip(
+                `<div>
+                     Nevada: avg.list price = 633,270.10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00090781d52b787a87789583c3d6ca07 = L.circleMarker(
+                [40.388783, -82.764915],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 38.14225, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_21eacae2dc553ae3e32009f921710162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fde08c47b2b4a625a6ea5d202c95489 = $(`<div id="html_9fde08c47b2b4a625a6ea5d202c95489" style="width: 100.0%; height: 100.0%;"><b>Ohio</b><br>avg.list price: 381,422.50</div>`)[0];
+                popup_21eacae2dc553ae3e32009f921710162.setContent(html_9fde08c47b2b4a625a6ea5d202c95489);
+            
+        
+
+        circle_marker_00090781d52b787a87789583c3d6ca07.bindPopup(popup_21eacae2dc553ae3e32009f921710162)
+        ;
+
+        
+    
+    
+            circle_marker_00090781d52b787a87789583c3d6ca07.bindTooltip(
+                `<div>
+                     Ohio: avg.list price = 381,422.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a7ca8c76bc9e9d3c4755879ceb47d491 = L.circleMarker(
+                [35.565342, -96.928917],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.370540000000002, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_ea3c1a646071daca62fcd285252fa3f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34d83188072b1ac84d4978df955c0c00 = $(`<div id="html_34d83188072b1ac84d4978df955c0c00" style="width: 100.0%; height: 100.0%;"><b>Oklahoma</b><br>avg.list price: 313,705.40</div>`)[0];
+                popup_ea3c1a646071daca62fcd285252fa3f8.setContent(html_34d83188072b1ac84d4978df955c0c00);
+            
+        
+
+        circle_marker_a7ca8c76bc9e9d3c4755879ceb47d491.bindPopup(popup_ea3c1a646071daca62fcd285252fa3f8)
+        ;
+
+        
+    
+    
+            circle_marker_a7ca8c76bc9e9d3c4755879ceb47d491.bindTooltip(
+                `<div>
+                     Oklahoma: avg.list price = 313,705.40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2add631a13724d6fc19c82c0897b7ad8 = L.circleMarker(
+                [44.572021, -122.070938],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 61.867619999999995, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_5335a7d8cad93039bb167028aac186ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef531e9edda971992e67e71f0c3a62f1 = $(`<div id="html_ef531e9edda971992e67e71f0c3a62f1" style="width: 100.0%; height: 100.0%;"><b>Oregon</b><br>avg.list price: 618,676.20</div>`)[0];
+                popup_5335a7d8cad93039bb167028aac186ee.setContent(html_ef531e9edda971992e67e71f0c3a62f1);
+            
+        
+
+        circle_marker_2add631a13724d6fc19c82c0897b7ad8.bindPopup(popup_5335a7d8cad93039bb167028aac186ee)
+        ;
+
+        
+    
+    
+            circle_marker_2add631a13724d6fc19c82c0897b7ad8.bindTooltip(
+                `<div>
+                     Oregon: avg.list price = 618,676.20
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e525ee749f8bd4b1f043a681523df0bd = L.circleMarker(
+                [40.590752, -77.209755],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 52.88545, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_6586e304cf38baceb44c0606e19ab770 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de214a4f4fc578e090b667b32ce7ae6e = $(`<div id="html_de214a4f4fc578e090b667b32ce7ae6e" style="width: 100.0%; height: 100.0%;"><b>Pennsylvania</b><br>avg.list price: 528,854.50</div>`)[0];
+                popup_6586e304cf38baceb44c0606e19ab770.setContent(html_de214a4f4fc578e090b667b32ce7ae6e);
+            
+        
+
+        circle_marker_e525ee749f8bd4b1f043a681523df0bd.bindPopup(popup_6586e304cf38baceb44c0606e19ab770)
+        ;
+
+        
+    
+    
+            circle_marker_e525ee749f8bd4b1f043a681523df0bd.bindTooltip(
+                `<div>
+                     Pennsylvania: avg.list price = 528,854.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4d4a7ec3ad3a6ac2cfd0c6c921937b5a = L.circleMarker(
+                [35.747845, -86.692345],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 54.193775, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_5440e00b7ca3b8e9a9cfedc034daf671 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b7c27fa3c1ab1da3400d8edb19544b8 = $(`<div id="html_4b7c27fa3c1ab1da3400d8edb19544b8" style="width: 100.0%; height: 100.0%;"><b>Tennessee</b><br>avg.list price: 541,937.75</div>`)[0];
+                popup_5440e00b7ca3b8e9a9cfedc034daf671.setContent(html_4b7c27fa3c1ab1da3400d8edb19544b8);
+            
+        
+
+        circle_marker_4d4a7ec3ad3a6ac2cfd0c6c921937b5a.bindPopup(popup_5440e00b7ca3b8e9a9cfedc034daf671)
+        ;
+
+        
+    
+    
+            circle_marker_4d4a7ec3ad3a6ac2cfd0c6c921937b5a.bindTooltip(
+                `<div>
+                     Tennessee: avg.list price = 541,937.75
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2272da6cfaaad663f139d827c8cdd827 = L.circleMarker(
+                [31.054487, -97.563461],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 49.96714, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_2af0a1a03981bda179ebefbea723180c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76adb01ab7f2c0484ed8aef2ac8069af = $(`<div id="html_76adb01ab7f2c0484ed8aef2ac8069af" style="width: 100.0%; height: 100.0%;"><b>Texas</b><br>avg.list price: 499,671.40</div>`)[0];
+                popup_2af0a1a03981bda179ebefbea723180c.setContent(html_76adb01ab7f2c0484ed8aef2ac8069af);
+            
+        
+
+        circle_marker_2272da6cfaaad663f139d827c8cdd827.bindPopup(popup_2af0a1a03981bda179ebefbea723180c)
+        ;
+
+        
+    
+    
+            circle_marker_2272da6cfaaad663f139d827c8cdd827.bindTooltip(
+                `<div>
+                     Texas: avg.list price = 499,671.40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c8b088f23e060a27cc1535419a33db8 = L.circleMarker(
+                [40.150032, -111.862434],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 82.148445, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_75dbc811b6f2f4274c2893e058d07854 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43b19cea922e64accf37fec8c3823af6 = $(`<div id="html_43b19cea922e64accf37fec8c3823af6" style="width: 100.0%; height: 100.0%;"><b>Utah</b><br>avg.list price: 821,484.45</div>`)[0];
+                popup_75dbc811b6f2f4274c2893e058d07854.setContent(html_43b19cea922e64accf37fec8c3823af6);
+            
+        
+
+        circle_marker_8c8b088f23e060a27cc1535419a33db8.bindPopup(popup_75dbc811b6f2f4274c2893e058d07854)
+        ;
+
+        
+    
+    
+            circle_marker_8c8b088f23e060a27cc1535419a33db8.bindTooltip(
+                `<div>
+                     Utah: avg.list price = 821,484.45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bbcc95c9b0a6ef7d11b0fbedce49b99 = L.circleMarker(
+                [44.045876, -72.710686],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 63.13485, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_023299fe97d91eaf3251d862e0b32d6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cda6522819ecd0f82b58574d715de26 = $(`<div id="html_5cda6522819ecd0f82b58574d715de26" style="width: 100.0%; height: 100.0%;"><b>Vermont</b><br>avg.list price: 631,348.50</div>`)[0];
+                popup_023299fe97d91eaf3251d862e0b32d6d.setContent(html_5cda6522819ecd0f82b58574d715de26);
+            
+        
+
+        circle_marker_1bbcc95c9b0a6ef7d11b0fbedce49b99.bindPopup(popup_023299fe97d91eaf3251d862e0b32d6d)
+        ;
+
+        
+    
+    
+            circle_marker_1bbcc95c9b0a6ef7d11b0fbedce49b99.bindTooltip(
+                `<div>
+                     Vermont: avg.list price = 631,348.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3cc814252454cf1fc44316e1108b9313 = L.circleMarker(
+                [37.769337, -78.169968],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 79.72381, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_31a985cb81af91959683c9f5c7bf2d15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58a1df7d8d5a85d3dd014b316324166f = $(`<div id="html_58a1df7d8d5a85d3dd014b316324166f" style="width: 100.0%; height: 100.0%;"><b>Virginia</b><br>avg.list price: 797,238.10</div>`)[0];
+                popup_31a985cb81af91959683c9f5c7bf2d15.setContent(html_58a1df7d8d5a85d3dd014b316324166f);
+            
+        
+
+        circle_marker_3cc814252454cf1fc44316e1108b9313.bindPopup(popup_31a985cb81af91959683c9f5c7bf2d15)
+        ;
+
+        
+    
+    
+            circle_marker_3cc814252454cf1fc44316e1108b9313.bindTooltip(
+                `<div>
+                     Virginia: avg.list price = 797,238.10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bafacf2dda2bab3be17ddc221c001881 = L.circleMarker(
+                [47.400902, -121.490494],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80.587785, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_3ba21c8d612f3db0c49885d3ff403081 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbcf039a83c552cf064de550a1f9355c = $(`<div id="html_fbcf039a83c552cf064de550a1f9355c" style="width: 100.0%; height: 100.0%;"><b>Washington</b><br>avg.list price: 805,877.85</div>`)[0];
+                popup_3ba21c8d612f3db0c49885d3ff403081.setContent(html_fbcf039a83c552cf064de550a1f9355c);
+            
+        
+
+        circle_marker_bafacf2dda2bab3be17ddc221c001881.bindPopup(popup_3ba21c8d612f3db0c49885d3ff403081)
+        ;
+
+        
+    
+    
+            circle_marker_bafacf2dda2bab3be17ddc221c001881.bindTooltip(
+                `<div>
+                     Washington: avg.list price = 805,877.85
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b9fb7ae2a061d144365dcbaef067c88 = L.circleMarker(
+                [44.268543, -89.616508],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 44.75719, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_9da98a3c8c60ce47d56e1de221301051 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cd35f1a5542e0bfa2951be6ff7f174c = $(`<div id="html_7cd35f1a5542e0bfa2951be6ff7f174c" style="width: 100.0%; height: 100.0%;"><b>Wisconsin</b><br>avg.list price: 447,571.90</div>`)[0];
+                popup_9da98a3c8c60ce47d56e1de221301051.setContent(html_7cd35f1a5542e0bfa2951be6ff7f174c);
+            
+        
+
+        circle_marker_4b9fb7ae2a061d144365dcbaef067c88.bindPopup(popup_9da98a3c8c60ce47d56e1de221301051)
+        ;
+
+        
+    
+    
+            circle_marker_4b9fb7ae2a061d144365dcbaef067c88.bindTooltip(
+                `<div>
+                     Wisconsin: avg.list price = 447,571.90
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_84c2d56ac1a2e9a6666055f74c077af1 = L.circleMarker(
+                [42.755966, -107.30249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 125.2215, "stroke": true, "weight": 3}
+            ).addTo(feature_group_0b6c488830974639b31204c1ae74f41a);
+        
+    
+        var popup_ce0bff1a0097cb0f602eec9a29e2c732 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80bc59b24db0586a7e0520b8d5822058 = $(`<div id="html_80bc59b24db0586a7e0520b8d5822058" style="width: 100.0%; height: 100.0%;"><b>Wyoming</b><br>avg.list price: 1,252,215.00</div>`)[0];
+                popup_ce0bff1a0097cb0f602eec9a29e2c732.setContent(html_80bc59b24db0586a7e0520b8d5822058);
+            
+        
+
+        circle_marker_84c2d56ac1a2e9a6666055f74c077af1.bindPopup(popup_ce0bff1a0097cb0f602eec9a29e2c732)
+        ;
+
+        
+    
+    
+            circle_marker_84c2d56ac1a2e9a6666055f74c077af1.bindTooltip(
+                `<div>
+                     Wyoming: avg.list price = 1,252,215.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_0b6c488830974639b31204c1ae74f41a.addTo(map_e09bafa6fe5e2f9c5a54eddba909b4e5);
+        
+    
+            var feature_group_8183a5a95c60553d0d667f59f93902a6 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_5ecf3af62faa8ca8470dc323fe25a89a = L.circleMarker(
+                [32.806671, -86.79113],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.830000000000002, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_72906ff2e036b94c8a2440af27e4800d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98638b3b69dbb508d91eab82b038501d = $(`<div id="html_98638b3b69dbb508d91eab82b038501d" style="width: 100.0%; height: 100.0%;"><b>Alabama</b><br>avg.price/sqft: 188.30</div>`)[0];
+                popup_72906ff2e036b94c8a2440af27e4800d.setContent(html_98638b3b69dbb508d91eab82b038501d);
+            
+        
+
+        circle_marker_5ecf3af62faa8ca8470dc323fe25a89a.bindPopup(popup_72906ff2e036b94c8a2440af27e4800d)
+        ;
+
+        
+    
+    
+            circle_marker_5ecf3af62faa8ca8470dc323fe25a89a.bindTooltip(
+                `<div>
+                     Alabama: avg.price/sqft = 188.30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_365ea51b31d8347065ee70a54f51b440 = L.circleMarker(
+                [61.370716, -152.404419],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.64167381974249, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_69a037365681e761aeebe9d0e7b4099a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b168396a6416de78ec4beca9e0a835a4 = $(`<div id="html_b168396a6416de78ec4beca9e0a835a4" style="width: 100.0%; height: 100.0%;"><b>Alaska</b><br>avg.price/sqft: 246.42</div>`)[0];
+                popup_69a037365681e761aeebe9d0e7b4099a.setContent(html_b168396a6416de78ec4beca9e0a835a4);
+            
+        
+
+        circle_marker_365ea51b31d8347065ee70a54f51b440.bindPopup(popup_69a037365681e761aeebe9d0e7b4099a)
+        ;
+
+        
+    
+    
+            circle_marker_365ea51b31d8347065ee70a54f51b440.bindTooltip(
+                `<div>
+                     Alaska: avg.price/sqft = 246.42
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_28c02a636db2b3f01eec7aa92fb5796c = L.circleMarker(
+                [33.729759, -111.431221],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.47, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_cfe6c6d04c6ec80d3ad32d9ea9a298c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39f61fc4bad7e779620491fd698d0881 = $(`<div id="html_39f61fc4bad7e779620491fd698d0881" style="width: 100.0%; height: 100.0%;"><b>Arizona</b><br>avg.price/sqft: 304.70</div>`)[0];
+                popup_cfe6c6d04c6ec80d3ad32d9ea9a298c8.setContent(html_39f61fc4bad7e779620491fd698d0881);
+            
+        
+
+        circle_marker_28c02a636db2b3f01eec7aa92fb5796c.bindPopup(popup_cfe6c6d04c6ec80d3ad32d9ea9a298c8)
+        ;
+
+        
+    
+    
+            circle_marker_28c02a636db2b3f01eec7aa92fb5796c.bindTooltip(
+                `<div>
+                     Arizona: avg.price/sqft = 304.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4f9b48489d9a9824a3511aa40aa444d = L.circleMarker(
+                [34.969704, -92.373123],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.98, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_6092e7db8f5d2d2bdc8ab7e9b1c6b8ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18df3b8188e25262d20475e52af29093 = $(`<div id="html_18df3b8188e25262d20475e52af29093" style="width: 100.0%; height: 100.0%;"><b>Arkansas</b><br>avg.price/sqft: 159.80</div>`)[0];
+                popup_6092e7db8f5d2d2bdc8ab7e9b1c6b8ff.setContent(html_18df3b8188e25262d20475e52af29093);
+            
+        
+
+        circle_marker_a4f9b48489d9a9824a3511aa40aa444d.bindPopup(popup_6092e7db8f5d2d2bdc8ab7e9b1c6b8ff)
+        ;
+
+        
+    
+    
+            circle_marker_a4f9b48489d9a9824a3511aa40aa444d.bindTooltip(
+                `<div>
+                     Arkansas: avg.price/sqft = 159.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bf45093cc19fecef69205ce64a1df7d = L.circleMarker(
+                [36.116203, -119.681564],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 67.77000000000001, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_cbbc2882fa04f1f42daa026fed3457c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99530811c57b8b8b9a682d655a750368 = $(`<div id="html_99530811c57b8b8b9a682d655a750368" style="width: 100.0%; height: 100.0%;"><b>California</b><br>avg.price/sqft: 677.70</div>`)[0];
+                popup_cbbc2882fa04f1f42daa026fed3457c0.setContent(html_99530811c57b8b8b9a682d655a750368);
+            
+        
+
+        circle_marker_7bf45093cc19fecef69205ce64a1df7d.bindPopup(popup_cbbc2882fa04f1f42daa026fed3457c0)
+        ;
+
+        
+    
+    
+            circle_marker_7bf45093cc19fecef69205ce64a1df7d.bindTooltip(
+                `<div>
+                     California: avg.price/sqft = 677.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b06157258c809a677f91f7ed5bc029a6 = L.circleMarker(
+                [39.059811, -105.311104],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.395, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_1f1b6268dc5ed3a475689c013a6aed32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a05b5c673a67a7ccb797ae6a550aa53 = $(`<div id="html_6a05b5c673a67a7ccb797ae6a550aa53" style="width: 100.0%; height: 100.0%;"><b>Colorado</b><br>avg.price/sqft: 273.95</div>`)[0];
+                popup_1f1b6268dc5ed3a475689c013a6aed32.setContent(html_6a05b5c673a67a7ccb797ae6a550aa53);
+            
+        
+
+        circle_marker_b06157258c809a677f91f7ed5bc029a6.bindPopup(popup_1f1b6268dc5ed3a475689c013a6aed32)
+        ;
+
+        
+    
+    
+            circle_marker_b06157258c809a677f91f7ed5bc029a6.bindTooltip(
+                `<div>
+                     Colorado: avg.price/sqft = 273.95
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ab447b5149d75f6deeab81d92b4e507 = L.circleMarker(
+                [41.597782, -72.755371],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.725, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_281e43ada98acdaf58105c11316ad4a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80c6202c4fb7b4df38a29c802b7c2b5b = $(`<div id="html_80c6202c4fb7b4df38a29c802b7c2b5b" style="width: 100.0%; height: 100.0%;"><b>Connecticut</b><br>avg.price/sqft: 317.25</div>`)[0];
+                popup_281e43ada98acdaf58105c11316ad4a1.setContent(html_80c6202c4fb7b4df38a29c802b7c2b5b);
+            
+        
+
+        circle_marker_3ab447b5149d75f6deeab81d92b4e507.bindPopup(popup_281e43ada98acdaf58105c11316ad4a1)
+        ;
+
+        
+    
+    
+            circle_marker_3ab447b5149d75f6deeab81d92b4e507.bindTooltip(
+                `<div>
+                     Connecticut: avg.price/sqft = 317.25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9065ade10ddca40f597ee06512012c5b = L.circleMarker(
+                [39.318523, -75.507141],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 34.80916845493562, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_d68923c3993f3dc7aebc1d5170c298b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b37ad67ab1688ba85fdbffd6628cd7a = $(`<div id="html_8b37ad67ab1688ba85fdbffd6628cd7a" style="width: 100.0%; height: 100.0%;"><b>Delaware</b><br>avg.price/sqft: 348.09</div>`)[0];
+                popup_d68923c3993f3dc7aebc1d5170c298b6.setContent(html_8b37ad67ab1688ba85fdbffd6628cd7a);
+            
+        
+
+        circle_marker_9065ade10ddca40f597ee06512012c5b.bindPopup(popup_d68923c3993f3dc7aebc1d5170c298b6)
+        ;
+
+        
+    
+    
+            circle_marker_9065ade10ddca40f597ee06512012c5b.bindTooltip(
+                `<div>
+                     Delaware: avg.price/sqft = 348.09
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8100203e8ab188b5df9190e96cf9319b = L.circleMarker(
+                [27.766279, -81.686783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 33.45, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_ae219ad4f72c88ae70a44ef32b7b77d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e768fe1208b33cdc83e79519fa458b66 = $(`<div id="html_e768fe1208b33cdc83e79519fa458b66" style="width: 100.0%; height: 100.0%;"><b>Florida</b><br>avg.price/sqft: 334.50</div>`)[0];
+                popup_ae219ad4f72c88ae70a44ef32b7b77d9.setContent(html_e768fe1208b33cdc83e79519fa458b66);
+            
+        
+
+        circle_marker_8100203e8ab188b5df9190e96cf9319b.bindPopup(popup_ae219ad4f72c88ae70a44ef32b7b77d9)
+        ;
+
+        
+    
+    
+            circle_marker_8100203e8ab188b5df9190e96cf9319b.bindTooltip(
+                `<div>
+                     Florida: avg.price/sqft = 334.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b5ec74519769dc2dfd3dc20254619cb = L.circleMarker(
+                [33.040619, -83.643074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.41, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_7e3364225353d33d8344e1a4177da8a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37081f3fe3b9c0f5e02942f4b73e13c1 = $(`<div id="html_37081f3fe3b9c0f5e02942f4b73e13c1" style="width: 100.0%; height: 100.0%;"><b>Georgia</b><br>avg.price/sqft: 224.10</div>`)[0];
+                popup_7e3364225353d33d8344e1a4177da8a8.setContent(html_37081f3fe3b9c0f5e02942f4b73e13c1);
+            
+        
+
+        circle_marker_7b5ec74519769dc2dfd3dc20254619cb.bindPopup(popup_7e3364225353d33d8344e1a4177da8a8)
+        ;
+
+        
+    
+    
+            circle_marker_7b5ec74519769dc2dfd3dc20254619cb.bindTooltip(
+                `<div>
+                     Georgia: avg.price/sqft = 224.10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_46e409abc7fce615c8e6280682c4a2ad = L.circleMarker(
+                [21.094318, -157.498337],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 64.65916845493562, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_3266f2525e4bd395fb581ce18e7f7262 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39a1acad5836097f21f42438d8335c3e = $(`<div id="html_39a1acad5836097f21f42438d8335c3e" style="width: 100.0%; height: 100.0%;"><b>Hawaii</b><br>avg.price/sqft: 646.59</div>`)[0];
+                popup_3266f2525e4bd395fb581ce18e7f7262.setContent(html_39a1acad5836097f21f42438d8335c3e);
+            
+        
+
+        circle_marker_46e409abc7fce615c8e6280682c4a2ad.bindPopup(popup_3266f2525e4bd395fb581ce18e7f7262)
+        ;
+
+        
+    
+    
+            circle_marker_46e409abc7fce615c8e6280682c4a2ad.bindTooltip(
+                `<div>
+                     Hawaii: avg.price/sqft = 646.59
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f7597b364b3d95e3a39b967af72b1498 = L.circleMarker(
+                [44.240459, -114.478828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.89916845493562, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_a79616361386a68a7a7a0bea8b0cc4b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5558b349baeabf7987fd00997ae3b7b2 = $(`<div id="html_5558b349baeabf7987fd00997ae3b7b2" style="width: 100.0%; height: 100.0%;"><b>Idaho</b><br>avg.price/sqft: 298.99</div>`)[0];
+                popup_a79616361386a68a7a7a0bea8b0cc4b9.setContent(html_5558b349baeabf7987fd00997ae3b7b2);
+            
+        
+
+        circle_marker_f7597b364b3d95e3a39b967af72b1498.bindPopup(popup_a79616361386a68a7a7a0bea8b0cc4b9)
+        ;
+
+        
+    
+    
+            circle_marker_f7597b364b3d95e3a39b967af72b1498.bindTooltip(
+                `<div>
+                     Idaho: avg.price/sqft = 298.99
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cdf4581b7eb2d1340b087d00e508ee0a = L.circleMarker(
+                [40.349457, -88.986137],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.815, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_96ed4949f34c1ddb5c19e7e045ab0f25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b27079490cf23b6db4313c0a49e8574 = $(`<div id="html_6b27079490cf23b6db4313c0a49e8574" style="width: 100.0%; height: 100.0%;"><b>Illinois</b><br>avg.price/sqft: 238.15</div>`)[0];
+                popup_96ed4949f34c1ddb5c19e7e045ab0f25.setContent(html_6b27079490cf23b6db4313c0a49e8574);
+            
+        
+
+        circle_marker_cdf4581b7eb2d1340b087d00e508ee0a.bindPopup(popup_96ed4949f34c1ddb5c19e7e045ab0f25)
+        ;
+
+        
+    
+    
+            circle_marker_cdf4581b7eb2d1340b087d00e508ee0a.bindTooltip(
+                `<div>
+                     Illinois: avg.price/sqft = 238.15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f6000f78bbea7e5028fbf0bcc3f11007 = L.circleMarker(
+                [39.849426, -86.258278],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.35, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_c4d4dd5e2ceaed74632a3d86a0c3f3c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_973b994de0a318c4066a7ec36c2a2192 = $(`<div id="html_973b994de0a318c4066a7ec36c2a2192" style="width: 100.0%; height: 100.0%;"><b>Indiana</b><br>avg.price/sqft: 153.50</div>`)[0];
+                popup_c4d4dd5e2ceaed74632a3d86a0c3f3c7.setContent(html_973b994de0a318c4066a7ec36c2a2192);
+            
+        
+
+        circle_marker_f6000f78bbea7e5028fbf0bcc3f11007.bindPopup(popup_c4d4dd5e2ceaed74632a3d86a0c3f3c7)
+        ;
+
+        
+    
+    
+            circle_marker_f6000f78bbea7e5028fbf0bcc3f11007.bindTooltip(
+                `<div>
+                     Indiana: avg.price/sqft = 153.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d978136218d20816740816d1ff0425e = L.circleMarker(
+                [42.011539, -93.210526],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.39, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_085fc6061b40141c99941d04be01903d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51c90cab069cc8a68c1f1af99f10ff18 = $(`<div id="html_51c90cab069cc8a68c1f1af99f10ff18" style="width: 100.0%; height: 100.0%;"><b>Iowa</b><br>avg.price/sqft: 173.90</div>`)[0];
+                popup_085fc6061b40141c99941d04be01903d.setContent(html_51c90cab069cc8a68c1f1af99f10ff18);
+            
+        
+
+        circle_marker_2d978136218d20816740816d1ff0425e.bindPopup(popup_085fc6061b40141c99941d04be01903d)
+        ;
+
+        
+    
+    
+            circle_marker_2d978136218d20816740816d1ff0425e.bindTooltip(
+                `<div>
+                     Iowa: avg.price/sqft = 173.90
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4aff1bfed2ae70be4d12616a7a8ec52 = L.circleMarker(
+                [38.5266, -96.726486],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.40916845493562, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_40cf674b061832f25b1c7f11d2110e05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afb6ef705bd2573ebbb936f99835f6f4 = $(`<div id="html_afb6ef705bd2573ebbb936f99835f6f4" style="width: 100.0%; height: 100.0%;"><b>Kansas</b><br>avg.price/sqft: 184.09</div>`)[0];
+                popup_40cf674b061832f25b1c7f11d2110e05.setContent(html_afb6ef705bd2573ebbb936f99835f6f4);
+            
+        
+
+        circle_marker_a4aff1bfed2ae70be4d12616a7a8ec52.bindPopup(popup_40cf674b061832f25b1c7f11d2110e05)
+        ;
+
+        
+    
+    
+            circle_marker_a4aff1bfed2ae70be4d12616a7a8ec52.bindTooltip(
+                `<div>
+                     Kansas: avg.price/sqft = 184.09
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_49e52e787e2672f20891c3e526da8ab0 = L.circleMarker(
+                [37.66814, -84.670067],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.65, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_7651bb7adc06615ec0e7c8e5ea23b9d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02a04b012f4473d51b490622a46755d7 = $(`<div id="html_02a04b012f4473d51b490622a46755d7" style="width: 100.0%; height: 100.0%;"><b>Kentucky</b><br>avg.price/sqft: 166.50</div>`)[0];
+                popup_7651bb7adc06615ec0e7c8e5ea23b9d8.setContent(html_02a04b012f4473d51b490622a46755d7);
+            
+        
+
+        circle_marker_49e52e787e2672f20891c3e526da8ab0.bindPopup(popup_7651bb7adc06615ec0e7c8e5ea23b9d8)
+        ;
+
+        
+    
+    
+            circle_marker_49e52e787e2672f20891c3e526da8ab0.bindTooltip(
+                `<div>
+                     Kentucky: avg.price/sqft = 166.50
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4170ea26d30cd1afc42afcdc896d7e50 = L.circleMarker(
+                [31.169546, -91.867805],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.015, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_b8d3a496e79f2bb21dad9fd2301546e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58bc7d105a08ce0fe26469d512051880 = $(`<div id="html_58bc7d105a08ce0fe26469d512051880" style="width: 100.0%; height: 100.0%;"><b>Louisiana</b><br>avg.price/sqft: 150.15</div>`)[0];
+                popup_b8d3a496e79f2bb21dad9fd2301546e9.setContent(html_58bc7d105a08ce0fe26469d512051880);
+            
+        
+
+        circle_marker_4170ea26d30cd1afc42afcdc896d7e50.bindPopup(popup_b8d3a496e79f2bb21dad9fd2301546e9)
+        ;
+
+        
+    
+    
+            circle_marker_4170ea26d30cd1afc42afcdc896d7e50.bindTooltip(
+                `<div>
+                     Louisiana: avg.price/sqft = 150.15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8dd4b1f4714b8aa07de86ef1206510f = L.circleMarker(
+                [44.693947, -69.381927],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36.07, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_c692fa48cfc1ed6a33764451f6a732b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ae785cada137522e769ba1315354b9e = $(`<div id="html_3ae785cada137522e769ba1315354b9e" style="width: 100.0%; height: 100.0%;"><b>Maine</b><br>avg.price/sqft: 360.70</div>`)[0];
+                popup_c692fa48cfc1ed6a33764451f6a732b7.setContent(html_3ae785cada137522e769ba1315354b9e);
+            
+        
+
+        circle_marker_a8dd4b1f4714b8aa07de86ef1206510f.bindPopup(popup_c692fa48cfc1ed6a33764451f6a732b7)
+        ;
+
+        
+    
+    
+            circle_marker_a8dd4b1f4714b8aa07de86ef1206510f.bindTooltip(
+                `<div>
+                     Maine: avg.price/sqft = 360.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_267429c99b893e3eebcc56c724737979 = L.circleMarker(
+                [39.063946, -76.802101],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.23, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_0b3eb39ff2930cfadfbeedfdc1a8615c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5d005448869fdb6f19c378b26010806 = $(`<div id="html_e5d005448869fdb6f19c378b26010806" style="width: 100.0%; height: 100.0%;"><b>Maryland</b><br>avg.price/sqft: 282.30</div>`)[0];
+                popup_0b3eb39ff2930cfadfbeedfdc1a8615c.setContent(html_e5d005448869fdb6f19c378b26010806);
+            
+        
+
+        circle_marker_267429c99b893e3eebcc56c724737979.bindPopup(popup_0b3eb39ff2930cfadfbeedfdc1a8615c)
+        ;
+
+        
+    
+    
+            circle_marker_267429c99b893e3eebcc56c724737979.bindTooltip(
+                `<div>
+                     Maryland: avg.price/sqft = 282.30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f53e2a4d1e552eb411779cd6330e035 = L.circleMarker(
+                [42.230171, -71.530106],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 49.795, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_11c5f90a88cca17d24616bcb08927f70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35eac57ed40187dea098cf4a2511ef03 = $(`<div id="html_35eac57ed40187dea098cf4a2511ef03" style="width: 100.0%; height: 100.0%;"><b>Massachusetts</b><br>avg.price/sqft: 497.95</div>`)[0];
+                popup_11c5f90a88cca17d24616bcb08927f70.setContent(html_35eac57ed40187dea098cf4a2511ef03);
+            
+        
+
+        circle_marker_8f53e2a4d1e552eb411779cd6330e035.bindPopup(popup_11c5f90a88cca17d24616bcb08927f70)
+        ;
+
+        
+    
+    
+            circle_marker_8f53e2a4d1e552eb411779cd6330e035.bindTooltip(
+                `<div>
+                     Massachusetts: avg.price/sqft = 497.95
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_60b82356a6ec0d4579218ccca2965614 = L.circleMarker(
+                [43.326618, -84.536095],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.725, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_fa9bf31f6135495dff35f50814453d28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8aab75945c5b21c89a8b4ff9e837e87 = $(`<div id="html_b8aab75945c5b21c89a8b4ff9e837e87" style="width: 100.0%; height: 100.0%;"><b>Michigan</b><br>avg.price/sqft: 227.25</div>`)[0];
+                popup_fa9bf31f6135495dff35f50814453d28.setContent(html_b8aab75945c5b21c89a8b4ff9e837e87);
+            
+        
+
+        circle_marker_60b82356a6ec0d4579218ccca2965614.bindPopup(popup_fa9bf31f6135495dff35f50814453d28)
+        ;
+
+        
+    
+    
+            circle_marker_60b82356a6ec0d4579218ccca2965614.bindTooltip(
+                `<div>
+                     Michigan: avg.price/sqft = 227.25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_51bcf1f76da156d3278181e17bde3e4e = L.circleMarker(
+                [45.694454, -93.900192],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.56, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_bcedfcf4246d0d9a8b26d397113bd9e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_834e97dfd06417c1c15c6aadd61db0b3 = $(`<div id="html_834e97dfd06417c1c15c6aadd61db0b3" style="width: 100.0%; height: 100.0%;"><b>Minnesota</b><br>avg.price/sqft: 195.60</div>`)[0];
+                popup_bcedfcf4246d0d9a8b26d397113bd9e4.setContent(html_834e97dfd06417c1c15c6aadd61db0b3);
+            
+        
+
+        circle_marker_51bcf1f76da156d3278181e17bde3e4e.bindPopup(popup_bcedfcf4246d0d9a8b26d397113bd9e4)
+        ;
+
+        
+    
+    
+            circle_marker_51bcf1f76da156d3278181e17bde3e4e.bindTooltip(
+                `<div>
+                     Minnesota: avg.price/sqft = 195.60
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e629842766b619ab172a80ad98e513e1 = L.circleMarker(
+                [32.741646, -89.678696],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.072505364806865, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_4c5048fe8ca34c3edcf7273e4269ef6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac41324ba35f05f0ee1aeb1b952a9491 = $(`<div id="html_ac41324ba35f05f0ee1aeb1b952a9491" style="width: 100.0%; height: 100.0%;"><b>Mississippi</b><br>avg.price/sqft: 180.73</div>`)[0];
+                popup_4c5048fe8ca34c3edcf7273e4269ef6f.setContent(html_ac41324ba35f05f0ee1aeb1b952a9491);
+            
+        
+
+        circle_marker_e629842766b619ab172a80ad98e513e1.bindPopup(popup_4c5048fe8ca34c3edcf7273e4269ef6f)
+        ;
+
+        
+    
+    
+            circle_marker_e629842766b619ab172a80ad98e513e1.bindTooltip(
+                `<div>
+                     Mississippi: avg.price/sqft = 180.73
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1be72c87101c1c4efa3ba29bdf3d8721 = L.circleMarker(
+                [38.456085, -92.288368],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.695, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_8c8e870ee7a09d369ec250e733a05ed7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fcf573e9da501a5bec1257cdec72bef = $(`<div id="html_4fcf573e9da501a5bec1257cdec72bef" style="width: 100.0%; height: 100.0%;"><b>Missouri</b><br>avg.price/sqft: 176.95</div>`)[0];
+                popup_8c8e870ee7a09d369ec250e733a05ed7.setContent(html_4fcf573e9da501a5bec1257cdec72bef);
+            
+        
+
+        circle_marker_1be72c87101c1c4efa3ba29bdf3d8721.bindPopup(popup_8c8e870ee7a09d369ec250e733a05ed7)
+        ;
+
+        
+    
+    
+            circle_marker_1be72c87101c1c4efa3ba29bdf3d8721.bindTooltip(
+                `<div>
+                     Missouri: avg.price/sqft = 176.95
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f3ea5681a4d7062974a576a16d18586a = L.circleMarker(
+                [46.921925, -110.454353],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.083369098712446, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_8ef7c2cd57e44f296daad7ace4accb02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03ac31e311a1ee56153dcb8cd7870ca6 = $(`<div id="html_03ac31e311a1ee56153dcb8cd7870ca6" style="width: 100.0%; height: 100.0%;"><b>Montana</b><br>avg.price/sqft: 270.83</div>`)[0];
+                popup_8ef7c2cd57e44f296daad7ace4accb02.setContent(html_03ac31e311a1ee56153dcb8cd7870ca6);
+            
+        
+
+        circle_marker_f3ea5681a4d7062974a576a16d18586a.bindPopup(popup_8ef7c2cd57e44f296daad7ace4accb02)
+        ;
+
+        
+    
+    
+            circle_marker_f3ea5681a4d7062974a576a16d18586a.bindTooltip(
+                `<div>
+                     Montana: avg.price/sqft = 270.83
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b3139ebef46b43eeef49524bb22d97f6 = L.circleMarker(
+                [41.12537, -98.268082],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.164168454935623, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_1a6b6142e5ac35dd9f508425d944a9c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ca3f04c0091bbd38f83c87795263a73 = $(`<div id="html_2ca3f04c0091bbd38f83c87795263a73" style="width: 100.0%; height: 100.0%;"><b>Nebraska</b><br>avg.price/sqft: 141.64</div>`)[0];
+                popup_1a6b6142e5ac35dd9f508425d944a9c6.setContent(html_2ca3f04c0091bbd38f83c87795263a73);
+            
+        
+
+        circle_marker_b3139ebef46b43eeef49524bb22d97f6.bindPopup(popup_1a6b6142e5ac35dd9f508425d944a9c6)
+        ;
+
+        
+    
+    
+            circle_marker_b3139ebef46b43eeef49524bb22d97f6.bindTooltip(
+                `<div>
+                     Nebraska: avg.price/sqft = 141.64
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9b854473bc25fc41043078d5c7960364 = L.circleMarker(
+                [38.313515, -117.055374],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.134168454935622, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_b7decb0a75774eec95eeebee3c282200 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bac8d0f6bca7ccd96ddc62b47aa2409 = $(`<div id="html_8bac8d0f6bca7ccd96ddc62b47aa2409" style="width: 100.0%; height: 100.0%;"><b>Nevada</b><br>avg.price/sqft: 291.34</div>`)[0];
+                popup_b7decb0a75774eec95eeebee3c282200.setContent(html_8bac8d0f6bca7ccd96ddc62b47aa2409);
+            
+        
+
+        circle_marker_9b854473bc25fc41043078d5c7960364.bindPopup(popup_b7decb0a75774eec95eeebee3c282200)
+        ;
+
+        
+    
+    
+            circle_marker_9b854473bc25fc41043078d5c7960364.bindTooltip(
+                `<div>
+                     Nevada: avg.price/sqft = 291.34
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9bf4e07385c2e7296218671595518ac0 = L.circleMarker(
+                [40.388783, -82.764915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.080000000000002, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_fce9726411b8f543002afb26ff628f40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa36de8b7be151eb6a10c07c1020547f = $(`<div id="html_fa36de8b7be151eb6a10c07c1020547f" style="width: 100.0%; height: 100.0%;"><b>Ohio</b><br>avg.price/sqft: 170.80</div>`)[0];
+                popup_fce9726411b8f543002afb26ff628f40.setContent(html_fa36de8b7be151eb6a10c07c1020547f);
+            
+        
+
+        circle_marker_9bf4e07385c2e7296218671595518ac0.bindPopup(popup_fce9726411b8f543002afb26ff628f40)
+        ;
+
+        
+    
+    
+            circle_marker_9bf4e07385c2e7296218671595518ac0.bindTooltip(
+                `<div>
+                     Ohio: avg.price/sqft = 170.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_217bb9bbbfa574daba181de6b0ef4e75 = L.circleMarker(
+                [35.565342, -96.928917],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.314168454935622, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_6547c44718cc5acec172c39d5a3b3ef9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19ff56764e634c10e8019ccb005180d7 = $(`<div id="html_19ff56764e634c10e8019ccb005180d7" style="width: 100.0%; height: 100.0%;"><b>Oklahoma</b><br>avg.price/sqft: 153.14</div>`)[0];
+                popup_6547c44718cc5acec172c39d5a3b3ef9.setContent(html_19ff56764e634c10e8019ccb005180d7);
+            
+        
+
+        circle_marker_217bb9bbbfa574daba181de6b0ef4e75.bindPopup(popup_6547c44718cc5acec172c39d5a3b3ef9)
+        ;
+
+        
+    
+    
+            circle_marker_217bb9bbbfa574daba181de6b0ef4e75.bindTooltip(
+                `<div>
+                     Oklahoma: avg.price/sqft = 153.14
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68edbef389fdbe09bf64c80e36b08d0a = L.circleMarker(
+                [44.572021, -122.070938],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.880000000000003, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_c0ea0317d1bbf27fbec8bd4a368d8edd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8f7473297ea7f002076a9f36c474829 = $(`<div id="html_b8f7473297ea7f002076a9f36c474829" style="width: 100.0%; height: 100.0%;"><b>Oregon</b><br>avg.price/sqft: 298.80</div>`)[0];
+                popup_c0ea0317d1bbf27fbec8bd4a368d8edd.setContent(html_b8f7473297ea7f002076a9f36c474829);
+            
+        
+
+        circle_marker_68edbef389fdbe09bf64c80e36b08d0a.bindPopup(popup_c0ea0317d1bbf27fbec8bd4a368d8edd)
+        ;
+
+        
+    
+    
+            circle_marker_68edbef389fdbe09bf64c80e36b08d0a.bindTooltip(
+                `<div>
+                     Oregon: avg.price/sqft = 298.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_452991b8d05da9ff6b4f1d7d40958ee0 = L.circleMarker(
+                [40.590752, -77.209755],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.44, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_4a90ea4cfe71affef5ec32c6ff370244 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68eca3f6fcd925b78db289e2cc3cfda9 = $(`<div id="html_68eca3f6fcd925b78db289e2cc3cfda9" style="width: 100.0%; height: 100.0%;"><b>Pennsylvania</b><br>avg.price/sqft: 234.40</div>`)[0];
+                popup_4a90ea4cfe71affef5ec32c6ff370244.setContent(html_68eca3f6fcd925b78db289e2cc3cfda9);
+            
+        
+
+        circle_marker_452991b8d05da9ff6b4f1d7d40958ee0.bindPopup(popup_4a90ea4cfe71affef5ec32c6ff370244)
+        ;
+
+        
+    
+    
+            circle_marker_452991b8d05da9ff6b4f1d7d40958ee0.bindTooltip(
+                `<div>
+                     Pennsylvania: avg.price/sqft = 234.40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_058c5cc3f1e82700395fc63ef2dd1eed = L.circleMarker(
+                [35.747845, -86.692345],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.28, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_3d1bfab3398935c58763e6e6e6efc977 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b6a3df80e61e5285be6817006812998 = $(`<div id="html_3b6a3df80e61e5285be6817006812998" style="width: 100.0%; height: 100.0%;"><b>Tennessee</b><br>avg.price/sqft: 222.80</div>`)[0];
+                popup_3d1bfab3398935c58763e6e6e6efc977.setContent(html_3b6a3df80e61e5285be6817006812998);
+            
+        
+
+        circle_marker_058c5cc3f1e82700395fc63ef2dd1eed.bindPopup(popup_3d1bfab3398935c58763e6e6e6efc977)
+        ;
+
+        
+    
+    
+            circle_marker_058c5cc3f1e82700395fc63ef2dd1eed.bindTooltip(
+                `<div>
+                     Tennessee: avg.price/sqft = 222.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b0823b6aabb27483d39301013f8441db = L.circleMarker(
+                [31.054487, -97.563461],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.485, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_6895c81846e333ce736f1191fe1e8c9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec95a1ff6fedfe7ddad5ee90569c997c = $(`<div id="html_ec95a1ff6fedfe7ddad5ee90569c997c" style="width: 100.0%; height: 100.0%;"><b>Texas</b><br>avg.price/sqft: 214.85</div>`)[0];
+                popup_6895c81846e333ce736f1191fe1e8c9f.setContent(html_ec95a1ff6fedfe7ddad5ee90569c997c);
+            
+        
+
+        circle_marker_b0823b6aabb27483d39301013f8441db.bindPopup(popup_6895c81846e333ce736f1191fe1e8c9f)
+        ;
+
+        
+    
+    
+            circle_marker_b0823b6aabb27483d39301013f8441db.bindTooltip(
+                `<div>
+                     Texas: avg.price/sqft = 214.85
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2dd363a81fc862a49ec208f7ee0c7457 = L.circleMarker(
+                [40.150032, -111.862434],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.165, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_e7e29e4028486e700d68fe47ee801cd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0acad7a6fb848db44606ac523a2b9d60 = $(`<div id="html_0acad7a6fb848db44606ac523a2b9d60" style="width: 100.0%; height: 100.0%;"><b>Utah</b><br>avg.price/sqft: 291.65</div>`)[0];
+                popup_e7e29e4028486e700d68fe47ee801cd5.setContent(html_0acad7a6fb848db44606ac523a2b9d60);
+            
+        
+
+        circle_marker_2dd363a81fc862a49ec208f7ee0c7457.bindPopup(popup_e7e29e4028486e700d68fe47ee801cd5)
+        ;
+
+        
+    
+    
+            circle_marker_2dd363a81fc862a49ec208f7ee0c7457.bindTooltip(
+                `<div>
+                     Utah: avg.price/sqft = 291.65
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ce949380af3293e274072927a048a4d = L.circleMarker(
+                [44.045876, -72.710686],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.845842274678112, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_4a171b6572040195d8a0c6d4c4f020af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a8004ca5038608e220315bd0c149993 = $(`<div id="html_1a8004ca5038608e220315bd0c149993" style="width: 100.0%; height: 100.0%;"><b>Vermont</b><br>avg.price/sqft: 248.46</div>`)[0];
+                popup_4a171b6572040195d8a0c6d4c4f020af.setContent(html_1a8004ca5038608e220315bd0c149993);
+            
+        
+
+        circle_marker_2ce949380af3293e274072927a048a4d.bindPopup(popup_4a171b6572040195d8a0c6d4c4f020af)
+        ;
+
+        
+    
+    
+            circle_marker_2ce949380af3293e274072927a048a4d.bindTooltip(
+                `<div>
+                     Vermont: avg.price/sqft = 248.46
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f915dc7d796a0a46c76af2dc0a290b4c = L.circleMarker(
+                [37.769337, -78.169968],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 33.335, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_391a53eb14b9dd621360b8e16a09ee64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2472346e298f0cea79030d0255a74ec5 = $(`<div id="html_2472346e298f0cea79030d0255a74ec5" style="width: 100.0%; height: 100.0%;"><b>Virginia</b><br>avg.price/sqft: 333.35</div>`)[0];
+                popup_391a53eb14b9dd621360b8e16a09ee64.setContent(html_2472346e298f0cea79030d0255a74ec5);
+            
+        
+
+        circle_marker_f915dc7d796a0a46c76af2dc0a290b4c.bindPopup(popup_391a53eb14b9dd621360b8e16a09ee64)
+        ;
+
+        
+    
+    
+            circle_marker_f915dc7d796a0a46c76af2dc0a290b4c.bindTooltip(
+                `<div>
+                     Virginia: avg.price/sqft = 333.35
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ec665c0ea85f6777baf79ce406f2644 = L.circleMarker(
+                [47.400902, -121.490494],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45.675, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_75751b8b8f7c52b3244fb8011acc35a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_362e15cf70e99c4274764996d0a88c34 = $(`<div id="html_362e15cf70e99c4274764996d0a88c34" style="width: 100.0%; height: 100.0%;"><b>Washington</b><br>avg.price/sqft: 456.75</div>`)[0];
+                popup_75751b8b8f7c52b3244fb8011acc35a1.setContent(html_362e15cf70e99c4274764996d0a88c34);
+            
+        
+
+        circle_marker_0ec665c0ea85f6777baf79ce406f2644.bindPopup(popup_75751b8b8f7c52b3244fb8011acc35a1)
+        ;
+
+        
+    
+    
+            circle_marker_0ec665c0ea85f6777baf79ce406f2644.bindTooltip(
+                `<div>
+                     Washington: avg.price/sqft = 456.75
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_192ea97d5cca177aadb8e27f7e5720fc = L.circleMarker(
+                [44.268543, -89.616508],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.715, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_3c6f0f3e0096bd2f95b3dbcf83ceaae8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49bc234415edc50fe8fc7b7525718d59 = $(`<div id="html_49bc234415edc50fe8fc7b7525718d59" style="width: 100.0%; height: 100.0%;"><b>Wisconsin</b><br>avg.price/sqft: 207.15</div>`)[0];
+                popup_3c6f0f3e0096bd2f95b3dbcf83ceaae8.setContent(html_49bc234415edc50fe8fc7b7525718d59);
+            
+        
+
+        circle_marker_192ea97d5cca177aadb8e27f7e5720fc.bindPopup(popup_3c6f0f3e0096bd2f95b3dbcf83ceaae8)
+        ;
+
+        
+    
+    
+            circle_marker_192ea97d5cca177aadb8e27f7e5720fc.bindTooltip(
+                `<div>
+                     Wisconsin: avg.price/sqft = 207.15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65cb4ad13ecf765d80381f45c43dde3d = L.circleMarker(
+                [42.755966, -107.30249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.911684549356224, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8183a5a95c60553d0d667f59f93902a6);
+        
+    
+        var popup_a421d6358466de4db08f0f558e664f73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05ae1de872bd007d836a5c2a2a53a620 = $(`<div id="html_05ae1de872bd007d836a5c2a2a53a620" style="width: 100.0%; height: 100.0%;"><b>Wyoming</b><br>avg.price/sqft: 209.12</div>`)[0];
+                popup_a421d6358466de4db08f0f558e664f73.setContent(html_05ae1de872bd007d836a5c2a2a53a620);
+            
+        
+
+        circle_marker_65cb4ad13ecf765d80381f45c43dde3d.bindPopup(popup_a421d6358466de4db08f0f558e664f73)
+        ;
+
+        
+    
+    
+            circle_marker_65cb4ad13ecf765d80381f45c43dde3d.bindTooltip(
+                `<div>
+                     Wyoming: avg.price/sqft = 209.12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_8183a5a95c60553d0d667f59f93902a6.addTo(map_e09bafa6fe5e2f9c5a54eddba909b4e5);
+        
+    
+            var feature_group_9c9e036dd337490bce30aede07c359ea = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_387a0f1675a772bfb78e94828791e8c2 = L.circleMarker(
+                [32.806671, -86.79113],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_c3eec18fce96d51be45d8c5cb4db8f14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2821759703908a3c64370502cdea7fe2 = $(`<div id="html_2821759703908a3c64370502cdea7fe2" style="width: 100.0%; height: 100.0%;"><b>Alabama</b><br>avg.days on market: 89.45</div>`)[0];
+                popup_c3eec18fce96d51be45d8c5cb4db8f14.setContent(html_2821759703908a3c64370502cdea7fe2);
+            
+        
+
+        circle_marker_387a0f1675a772bfb78e94828791e8c2.bindPopup(popup_c3eec18fce96d51be45d8c5cb4db8f14)
+        ;
+
+        
+    
+    
+            circle_marker_387a0f1675a772bfb78e94828791e8c2.bindTooltip(
+                `<div>
+                     Alabama: avg.days on market = 89.45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9124ffcf5051d46169ab305169b3f063 = L.circleMarker(
+                [61.370716, -152.404419],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.430000000000001, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_69cdba83ea8eaa0eb051bd54d9367c34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_748b5f7f90925085b41452b3b4325886 = $(`<div id="html_748b5f7f90925085b41452b3b4325886" style="width: 100.0%; height: 100.0%;"><b>Alaska</b><br>avg.days on market: 134.30</div>`)[0];
+                popup_69cdba83ea8eaa0eb051bd54d9367c34.setContent(html_748b5f7f90925085b41452b3b4325886);
+            
+        
+
+        circle_marker_9124ffcf5051d46169ab305169b3f063.bindPopup(popup_69cdba83ea8eaa0eb051bd54d9367c34)
+        ;
+
+        
+    
+    
+            circle_marker_9124ffcf5051d46169ab305169b3f063.bindTooltip(
+                `<div>
+                     Alaska: avg.days on market = 134.30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8916fbdb98e03c58298b1aa51fe40cc3 = L.circleMarker(
+                [33.729759, -111.431221],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.67, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_f4c21761fce82ec4ee94af46f930a6e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb9a9e8c55fca909b16d80eec5b4b5e0 = $(`<div id="html_bb9a9e8c55fca909b16d80eec5b4b5e0" style="width: 100.0%; height: 100.0%;"><b>Arizona</b><br>avg.days on market: 76.70</div>`)[0];
+                popup_f4c21761fce82ec4ee94af46f930a6e0.setContent(html_bb9a9e8c55fca909b16d80eec5b4b5e0);
+            
+        
+
+        circle_marker_8916fbdb98e03c58298b1aa51fe40cc3.bindPopup(popup_f4c21761fce82ec4ee94af46f930a6e0)
+        ;
+
+        
+    
+    
+            circle_marker_8916fbdb98e03c58298b1aa51fe40cc3.bindTooltip(
+                `<div>
+                     Arizona: avg.days on market = 76.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_107e4f4445493a07a0c36029dbc5a44f = L.circleMarker(
+                [34.969704, -92.373123],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.575, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_105f7fcecaaeb2593c9e93e4c71b250c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a9e1f394ec8715e9f94ba8ab0a848a0 = $(`<div id="html_3a9e1f394ec8715e9f94ba8ab0a848a0" style="width: 100.0%; height: 100.0%;"><b>Arkansas</b><br>avg.days on market: 75.75</div>`)[0];
+                popup_105f7fcecaaeb2593c9e93e4c71b250c.setContent(html_3a9e1f394ec8715e9f94ba8ab0a848a0);
+            
+        
+
+        circle_marker_107e4f4445493a07a0c36029dbc5a44f.bindPopup(popup_105f7fcecaaeb2593c9e93e4c71b250c)
+        ;
+
+        
+    
+    
+            circle_marker_107e4f4445493a07a0c36029dbc5a44f.bindTooltip(
+                `<div>
+                     Arkansas: avg.days on market = 75.75
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_33e5364d3448101f6626fcaaa33587c1 = L.circleMarker(
+                [36.116203, -119.681564],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_d4c598455e8d6a6176d9a82e3f04d2e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52287c8531a8a3d84fe00a1bd5d65b36 = $(`<div id="html_52287c8531a8a3d84fe00a1bd5d65b36" style="width: 100.0%; height: 100.0%;"><b>California</b><br>avg.days on market: 60.00</div>`)[0];
+                popup_d4c598455e8d6a6176d9a82e3f04d2e6.setContent(html_52287c8531a8a3d84fe00a1bd5d65b36);
+            
+        
+
+        circle_marker_33e5364d3448101f6626fcaaa33587c1.bindPopup(popup_d4c598455e8d6a6176d9a82e3f04d2e6)
+        ;
+
+        
+    
+    
+            circle_marker_33e5364d3448101f6626fcaaa33587c1.bindTooltip(
+                `<div>
+                     California: avg.days on market = 60.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f009e18b5a4b2014c5180a1ada4fdb10 = L.circleMarker(
+                [39.059811, -105.311104],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.7299999999999995, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_ffcdbbcdd8d136042b6ea64d140bb5d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dd713faae459a6a49b9edd9f7d9c62d = $(`<div id="html_2dd713faae459a6a49b9edd9f7d9c62d" style="width: 100.0%; height: 100.0%;"><b>Colorado</b><br>avg.days on market: 77.30</div>`)[0];
+                popup_ffcdbbcdd8d136042b6ea64d140bb5d4.setContent(html_2dd713faae459a6a49b9edd9f7d9c62d);
+            
+        
+
+        circle_marker_f009e18b5a4b2014c5180a1ada4fdb10.bindPopup(popup_ffcdbbcdd8d136042b6ea64d140bb5d4)
+        ;
+
+        
+    
+    
+            circle_marker_f009e18b5a4b2014c5180a1ada4fdb10.bindTooltip(
+                `<div>
+                     Colorado: avg.days on market = 77.30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_63c3d09218e337e0ad030051c2beb3a5 = L.circleMarker(
+                [41.597782, -72.755371],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.025, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_a0c3bf2432e666e9bedc91aa0c0af1cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_311d7e891b43db1df685d7d937b0869a = $(`<div id="html_311d7e891b43db1df685d7d937b0869a" style="width: 100.0%; height: 100.0%;"><b>Connecticut</b><br>avg.days on market: 70.25</div>`)[0];
+                popup_a0c3bf2432e666e9bedc91aa0c0af1cc.setContent(html_311d7e891b43db1df685d7d937b0869a);
+            
+        
+
+        circle_marker_63c3d09218e337e0ad030051c2beb3a5.bindPopup(popup_a0c3bf2432e666e9bedc91aa0c0af1cc)
+        ;
+
+        
+    
+    
+            circle_marker_63c3d09218e337e0ad030051c2beb3a5.bindTooltip(
+                `<div>
+                     Connecticut: avg.days on market = 70.25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5868591f0113b2554d636c6d884ef354 = L.circleMarker(
+                [39.318523, -75.507141],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.555, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_bf439b3163970a3feab663b645a74877 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab94569d96dbf12f041c3e9b53d27dc2 = $(`<div id="html_ab94569d96dbf12f041c3e9b53d27dc2" style="width: 100.0%; height: 100.0%;"><b>Delaware</b><br>avg.days on market: 75.55</div>`)[0];
+                popup_bf439b3163970a3feab663b645a74877.setContent(html_ab94569d96dbf12f041c3e9b53d27dc2);
+            
+        
+
+        circle_marker_5868591f0113b2554d636c6d884ef354.bindPopup(popup_bf439b3163970a3feab663b645a74877)
+        ;
+
+        
+    
+    
+            circle_marker_5868591f0113b2554d636c6d884ef354.bindTooltip(
+                `<div>
+                     Delaware: avg.days on market = 75.55
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_62efa58ec0799fbbc6514fbf9473fbae = L.circleMarker(
+                [27.766279, -81.686783],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.545, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_9e76619ae2b82d84f3d15ecdbd26dae8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05bf729d543dc5fb10664016c8c40b44 = $(`<div id="html_05bf729d543dc5fb10664016c8c40b44" style="width: 100.0%; height: 100.0%;"><b>Florida</b><br>avg.days on market: 95.45</div>`)[0];
+                popup_9e76619ae2b82d84f3d15ecdbd26dae8.setContent(html_05bf729d543dc5fb10664016c8c40b44);
+            
+        
+
+        circle_marker_62efa58ec0799fbbc6514fbf9473fbae.bindPopup(popup_9e76619ae2b82d84f3d15ecdbd26dae8)
+        ;
+
+        
+    
+    
+            circle_marker_62efa58ec0799fbbc6514fbf9473fbae.bindTooltip(
+                `<div>
+                     Florida: avg.days on market = 95.45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65f5d76ad265a797d59b694d70d523d3 = L.circleMarker(
+                [33.040619, -83.643074],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.62, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_c83425c40af343d9bf3ac06fb7b7908a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69136ca189caf3b74f932f443e218d8b = $(`<div id="html_69136ca189caf3b74f932f443e218d8b" style="width: 100.0%; height: 100.0%;"><b>Georgia</b><br>avg.days on market: 76.20</div>`)[0];
+                popup_c83425c40af343d9bf3ac06fb7b7908a.setContent(html_69136ca189caf3b74f932f443e218d8b);
+            
+        
+
+        circle_marker_65f5d76ad265a797d59b694d70d523d3.bindPopup(popup_c83425c40af343d9bf3ac06fb7b7908a)
+        ;
+
+        
+    
+    
+            circle_marker_65f5d76ad265a797d59b694d70d523d3.bindTooltip(
+                `<div>
+                     Georgia: avg.days on market = 76.20
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2b2c318779f0a91118859cf5c3b935a = L.circleMarker(
+                [21.094318, -157.498337],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.684999999999999, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_2719366d562e4e0d724292549819b366 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26bf19d4f0231eea4296d0462dbe833a = $(`<div id="html_26bf19d4f0231eea4296d0462dbe833a" style="width: 100.0%; height: 100.0%;"><b>Hawaii</b><br>avg.days on market: 116.85</div>`)[0];
+                popup_2719366d562e4e0d724292549819b366.setContent(html_26bf19d4f0231eea4296d0462dbe833a);
+            
+        
+
+        circle_marker_b2b2c318779f0a91118859cf5c3b935a.bindPopup(popup_2719366d562e4e0d724292549819b366)
+        ;
+
+        
+    
+    
+            circle_marker_b2b2c318779f0a91118859cf5c3b935a.bindTooltip(
+                `<div>
+                     Hawaii: avg.days on market = 116.85
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35e0ac68991f7e1c7f52fda1399deead = L.circleMarker(
+                [44.240459, -114.478828],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.084999999999999, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_7d9021f53e3ab2224dc29b8e1503bbff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2323c76e384629176ad0e522d54f3f84 = $(`<div id="html_2323c76e384629176ad0e522d54f3f84" style="width: 100.0%; height: 100.0%;"><b>Idaho</b><br>avg.days on market: 90.85</div>`)[0];
+                popup_7d9021f53e3ab2224dc29b8e1503bbff.setContent(html_2323c76e384629176ad0e522d54f3f84);
+            
+        
+
+        circle_marker_35e0ac68991f7e1c7f52fda1399deead.bindPopup(popup_7d9021f53e3ab2224dc29b8e1503bbff)
+        ;
+
+        
+    
+    
+            circle_marker_35e0ac68991f7e1c7f52fda1399deead.bindTooltip(
+                `<div>
+                     Idaho: avg.days on market = 90.85
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_77d6c3f5b187983d839b96daf9c369c2 = L.circleMarker(
+                [40.349457, -88.986137],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_eae8969944200fcf8f7da57dc5974256 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7aff7c88f03bec0d48919d405e7243a0 = $(`<div id="html_7aff7c88f03bec0d48919d405e7243a0" style="width: 100.0%; height: 100.0%;"><b>Illinois</b><br>avg.days on market: 62.00</div>`)[0];
+                popup_eae8969944200fcf8f7da57dc5974256.setContent(html_7aff7c88f03bec0d48919d405e7243a0);
+            
+        
+
+        circle_marker_77d6c3f5b187983d839b96daf9c369c2.bindPopup(popup_eae8969944200fcf8f7da57dc5974256)
+        ;
+
+        
+    
+    
+            circle_marker_77d6c3f5b187983d839b96daf9c369c2.bindTooltip(
+                `<div>
+                     Illinois: avg.days on market = 62.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7812224f61cdfabab8432661fe7cd0f9 = L.circleMarker(
+                [39.849426, -86.258278],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.83, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_f838401ecb5b1edc70b67222677ca605 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3caa4ac809d79e261fa74e92294db430 = $(`<div id="html_3caa4ac809d79e261fa74e92294db430" style="width: 100.0%; height: 100.0%;"><b>Indiana</b><br>avg.days on market: 68.30</div>`)[0];
+                popup_f838401ecb5b1edc70b67222677ca605.setContent(html_3caa4ac809d79e261fa74e92294db430);
+            
+        
+
+        circle_marker_7812224f61cdfabab8432661fe7cd0f9.bindPopup(popup_f838401ecb5b1edc70b67222677ca605)
+        ;
+
+        
+    
+    
+            circle_marker_7812224f61cdfabab8432661fe7cd0f9.bindTooltip(
+                `<div>
+                     Indiana: avg.days on market = 68.30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3220d42d29e7b30248879839a2f4da51 = L.circleMarker(
+                [42.011539, -93.210526],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.825, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_e99eed8eef69d346a45fa06eedf3982c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29693863383a391d0718a35ac36f900f = $(`<div id="html_29693863383a391d0718a35ac36f900f" style="width: 100.0%; height: 100.0%;"><b>Iowa</b><br>avg.days on market: 78.25</div>`)[0];
+                popup_e99eed8eef69d346a45fa06eedf3982c.setContent(html_29693863383a391d0718a35ac36f900f);
+            
+        
+
+        circle_marker_3220d42d29e7b30248879839a2f4da51.bindPopup(popup_e99eed8eef69d346a45fa06eedf3982c)
+        ;
+
+        
+    
+    
+            circle_marker_3220d42d29e7b30248879839a2f4da51.bindTooltip(
+                `<div>
+                     Iowa: avg.days on market = 78.25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01baa9d18741e4067cb0173c7b9bcf97 = L.circleMarker(
+                [38.5266, -96.726486],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_460b1043e9d36e699abaf645a6aa61fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b172576c771270ce15a7a78ca566f59a = $(`<div id="html_b172576c771270ce15a7a78ca566f59a" style="width: 100.0%; height: 100.0%;"><b>Kansas</b><br>avg.days on market: 72.00</div>`)[0];
+                popup_460b1043e9d36e699abaf645a6aa61fd.setContent(html_b172576c771270ce15a7a78ca566f59a);
+            
+        
+
+        circle_marker_01baa9d18741e4067cb0173c7b9bcf97.bindPopup(popup_460b1043e9d36e699abaf645a6aa61fd)
+        ;
+
+        
+    
+    
+            circle_marker_01baa9d18741e4067cb0173c7b9bcf97.bindTooltip(
+                `<div>
+                     Kansas: avg.days on market = 72.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_13b70a7c7a65012b4704220458cd8e8a = L.circleMarker(
+                [37.66814, -84.670067],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.595000000000001, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_7312f6a53e7cd463d10c7e1f70cf059f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42f1254622338bd4f26d05aebe5aba96 = $(`<div id="html_42f1254622338bd4f26d05aebe5aba96" style="width: 100.0%; height: 100.0%;"><b>Kentucky</b><br>avg.days on market: 65.95</div>`)[0];
+                popup_7312f6a53e7cd463d10c7e1f70cf059f.setContent(html_42f1254622338bd4f26d05aebe5aba96);
+            
+        
+
+        circle_marker_13b70a7c7a65012b4704220458cd8e8a.bindPopup(popup_7312f6a53e7cd463d10c7e1f70cf059f)
+        ;
+
+        
+    
+    
+            circle_marker_13b70a7c7a65012b4704220458cd8e8a.bindTooltip(
+                `<div>
+                     Kentucky: avg.days on market = 65.95
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9f024cae81548e2b66e72e3054d1d5b4 = L.circleMarker(
+                [31.169546, -91.867805],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.315000000000001, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_df085be67ee557ddbd9facd7fb74f431 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4570b2702e31ccda05e8576fbf32eff9 = $(`<div id="html_4570b2702e31ccda05e8576fbf32eff9" style="width: 100.0%; height: 100.0%;"><b>Louisiana</b><br>avg.days on market: 103.15</div>`)[0];
+                popup_df085be67ee557ddbd9facd7fb74f431.setContent(html_4570b2702e31ccda05e8576fbf32eff9);
+            
+        
+
+        circle_marker_9f024cae81548e2b66e72e3054d1d5b4.bindPopup(popup_df085be67ee557ddbd9facd7fb74f431)
+        ;
+
+        
+    
+    
+            circle_marker_9f024cae81548e2b66e72e3054d1d5b4.bindTooltip(
+                `<div>
+                     Louisiana: avg.days on market = 103.15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_540cc47a3a655718b796d3bed0ad9430 = L.circleMarker(
+                [44.693947, -69.381927],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.81, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_4ea8e9270cb973165ace059b24f5deed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf39b1d2b035207f189bba156e111e68 = $(`<div id="html_cf39b1d2b035207f189bba156e111e68" style="width: 100.0%; height: 100.0%;"><b>Maine</b><br>avg.days on market: 68.10</div>`)[0];
+                popup_4ea8e9270cb973165ace059b24f5deed.setContent(html_cf39b1d2b035207f189bba156e111e68);
+            
+        
+
+        circle_marker_540cc47a3a655718b796d3bed0ad9430.bindPopup(popup_4ea8e9270cb973165ace059b24f5deed)
+        ;
+
+        
+    
+    
+            circle_marker_540cc47a3a655718b796d3bed0ad9430.bindTooltip(
+                `<div>
+                     Maine: avg.days on market = 68.10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b04c07d6ebd9eed3e8e115b365eda14c = L.circleMarker(
+                [39.063946, -76.802101],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.225, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_37201407789a7ad227e473aed4862947 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8e3cdcb53124b3de521b397d3347b47 = $(`<div id="html_e8e3cdcb53124b3de521b397d3347b47" style="width: 100.0%; height: 100.0%;"><b>Maryland</b><br>avg.days on market: 52.25</div>`)[0];
+                popup_37201407789a7ad227e473aed4862947.setContent(html_e8e3cdcb53124b3de521b397d3347b47);
+            
+        
+
+        circle_marker_b04c07d6ebd9eed3e8e115b365eda14c.bindPopup(popup_37201407789a7ad227e473aed4862947)
+        ;
+
+        
+    
+    
+            circle_marker_b04c07d6ebd9eed3e8e115b365eda14c.bindTooltip(
+                `<div>
+                     Maryland: avg.days on market = 52.25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e91a0ce9fb2b0ef4292ce6f139e0b6f = L.circleMarker(
+                [42.230171, -71.530106],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.955, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_384e66927d1f90dfd2e2383c7b5ef0e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_797bc5e11b27b059e248f8646cd76d60 = $(`<div id="html_797bc5e11b27b059e248f8646cd76d60" style="width: 100.0%; height: 100.0%;"><b>Massachusetts</b><br>avg.days on market: 59.55</div>`)[0];
+                popup_384e66927d1f90dfd2e2383c7b5ef0e4.setContent(html_797bc5e11b27b059e248f8646cd76d60);
+            
+        
+
+        circle_marker_8e91a0ce9fb2b0ef4292ce6f139e0b6f.bindPopup(popup_384e66927d1f90dfd2e2383c7b5ef0e4)
+        ;
+
+        
+    
+    
+            circle_marker_8e91a0ce9fb2b0ef4292ce6f139e0b6f.bindTooltip(
+                `<div>
+                     Massachusetts: avg.days on market = 59.55
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1398ffe533a98fc3ebcd65288e9cd1fe = L.circleMarker(
+                [43.326618, -84.536095],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.4799999999999995, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_dc6184c1e2b202207cf2cf1841f513bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9bb7b629043bffdc4fd11e326432f39 = $(`<div id="html_c9bb7b629043bffdc4fd11e326432f39" style="width: 100.0%; height: 100.0%;"><b>Michigan</b><br>avg.days on market: 54.80</div>`)[0];
+                popup_dc6184c1e2b202207cf2cf1841f513bb.setContent(html_c9bb7b629043bffdc4fd11e326432f39);
+            
+        
+
+        circle_marker_1398ffe533a98fc3ebcd65288e9cd1fe.bindPopup(popup_dc6184c1e2b202207cf2cf1841f513bb)
+        ;
+
+        
+    
+    
+            circle_marker_1398ffe533a98fc3ebcd65288e9cd1fe.bindTooltip(
+                `<div>
+                     Michigan: avg.days on market = 54.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_96ab44fd916186a32440901db592d29c = L.circleMarker(
+                [45.694454, -93.900192],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.58, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_3e315fa3adacba123348b8798dd1da18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c71728a464a9040591c018a0a609adb = $(`<div id="html_0c71728a464a9040591c018a0a609adb" style="width: 100.0%; height: 100.0%;"><b>Minnesota</b><br>avg.days on market: 65.80</div>`)[0];
+                popup_3e315fa3adacba123348b8798dd1da18.setContent(html_0c71728a464a9040591c018a0a609adb);
+            
+        
+
+        circle_marker_96ab44fd916186a32440901db592d29c.bindPopup(popup_3e315fa3adacba123348b8798dd1da18)
+        ;
+
+        
+    
+    
+            circle_marker_96ab44fd916186a32440901db592d29c.bindTooltip(
+                `<div>
+                     Minnesota: avg.days on market = 65.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_da8507ff699ce33f0642d778979cd6a0 = L.circleMarker(
+                [32.741646, -89.678696],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.775, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_4a24443f0f68a6c35aedc0439be53db3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d07d41794f0f4bc975c37066666f1a13 = $(`<div id="html_d07d41794f0f4bc975c37066666f1a13" style="width: 100.0%; height: 100.0%;"><b>Mississippi</b><br>avg.days on market: 97.75</div>`)[0];
+                popup_4a24443f0f68a6c35aedc0439be53db3.setContent(html_d07d41794f0f4bc975c37066666f1a13);
+            
+        
+
+        circle_marker_da8507ff699ce33f0642d778979cd6a0.bindPopup(popup_4a24443f0f68a6c35aedc0439be53db3)
+        ;
+
+        
+    
+    
+            circle_marker_da8507ff699ce33f0642d778979cd6a0.bindTooltip(
+                `<div>
+                     Mississippi: avg.days on market = 97.75
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d85e2bf7ba0e2c33385b11f918ccb18f = L.circleMarker(
+                [38.456085, -92.288368],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.08, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_07125140d2e0c1f64c61f2a4895165bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb29ca97b00688136beeb05d1713ad10 = $(`<div id="html_eb29ca97b00688136beeb05d1713ad10" style="width: 100.0%; height: 100.0%;"><b>Missouri</b><br>avg.days on market: 70.80</div>`)[0];
+                popup_07125140d2e0c1f64c61f2a4895165bd.setContent(html_eb29ca97b00688136beeb05d1713ad10);
+            
+        
+
+        circle_marker_d85e2bf7ba0e2c33385b11f918ccb18f.bindPopup(popup_07125140d2e0c1f64c61f2a4895165bd)
+        ;
+
+        
+    
+    
+            circle_marker_d85e2bf7ba0e2c33385b11f918ccb18f.bindTooltip(
+                `<div>
+                     Missouri: avg.days on market = 70.80
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a6cd9320d7a463f29441f1a3cb1efcb = L.circleMarker(
+                [46.921925, -110.454353],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.290000000000001, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_d7abc68b151b6bce6ac0687179492a49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96faaea1de33175775e2cbe53904597b = $(`<div id="html_96faaea1de33175775e2cbe53904597b" style="width: 100.0%; height: 100.0%;"><b>Montana</b><br>avg.days on market: 122.90</div>`)[0];
+                popup_d7abc68b151b6bce6ac0687179492a49.setContent(html_96faaea1de33175775e2cbe53904597b);
+            
+        
+
+        circle_marker_2a6cd9320d7a463f29441f1a3cb1efcb.bindPopup(popup_d7abc68b151b6bce6ac0687179492a49)
+        ;
+
+        
+    
+    
+            circle_marker_2a6cd9320d7a463f29441f1a3cb1efcb.bindTooltip(
+                `<div>
+                     Montana: avg.days on market = 122.90
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3758b19187e248622f7301b87ac5f151 = L.circleMarker(
+                [41.12537, -98.268082],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_fe067f71e7c8594a1a489fc6c0f2aea5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_defb1cbb4215b78f1ae092ed00fb94de = $(`<div id="html_defb1cbb4215b78f1ae092ed00fb94de" style="width: 100.0%; height: 100.0%;"><b>Nebraska</b><br>avg.days on market: 65.00</div>`)[0];
+                popup_fe067f71e7c8594a1a489fc6c0f2aea5.setContent(html_defb1cbb4215b78f1ae092ed00fb94de);
+            
+        
+
+        circle_marker_3758b19187e248622f7301b87ac5f151.bindPopup(popup_fe067f71e7c8594a1a489fc6c0f2aea5)
+        ;
+
+        
+    
+    
+            circle_marker_3758b19187e248622f7301b87ac5f151.bindTooltip(
+                `<div>
+                     Nebraska: avg.days on market = 65.00
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d4dc61f823e203104261ce0723000ef = L.circleMarker(
+                [38.313515, -117.055374],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.690000000000001, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_46b86f7f1b3ca6a19d94de2d9fa7ad51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_938e07877aa687eeaabb75340e66426e = $(`<div id="html_938e07877aa687eeaabb75340e66426e" style="width: 100.0%; height: 100.0%;"><b>Nevada</b><br>avg.days on market: 86.90</div>`)[0];
+                popup_46b86f7f1b3ca6a19d94de2d9fa7ad51.setContent(html_938e07877aa687eeaabb75340e66426e);
+            
+        
+
+        circle_marker_6d4dc61f823e203104261ce0723000ef.bindPopup(popup_46b86f7f1b3ca6a19d94de2d9fa7ad51)
+        ;
+
+        
+    
+    
+            circle_marker_6d4dc61f823e203104261ce0723000ef.bindTooltip(
+                `<div>
+                     Nevada: avg.days on market = 86.90
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03574c0f3c041457ff08fab5f9f5aa85 = L.circleMarker(
+                [40.388783, -82.764915],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.725, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_091da91552f41e2301f9c10690dce3b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_399090f573defd247b0ae61acee1ffba = $(`<div id="html_399090f573defd247b0ae61acee1ffba" style="width: 100.0%; height: 100.0%;"><b>Ohio</b><br>avg.days on market: 57.25</div>`)[0];
+                popup_091da91552f41e2301f9c10690dce3b0.setContent(html_399090f573defd247b0ae61acee1ffba);
+            
+        
+
+        circle_marker_03574c0f3c041457ff08fab5f9f5aa85.bindPopup(popup_091da91552f41e2301f9c10690dce3b0)
+        ;
+
+        
+    
+    
+            circle_marker_03574c0f3c041457ff08fab5f9f5aa85.bindTooltip(
+                `<div>
+                     Ohio: avg.days on market = 57.25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_368bdf0adaa879904a696debe9dfe80d = L.circleMarker(
+                [35.565342, -96.928917],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.055, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_b86d6fde3df76d4704f91b6549682b66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14e5d3bee5749a92dcf6b845dcf5f808 = $(`<div id="html_14e5d3bee5749a92dcf6b845dcf5f808" style="width: 100.0%; height: 100.0%;"><b>Oklahoma</b><br>avg.days on market: 80.55</div>`)[0];
+                popup_b86d6fde3df76d4704f91b6549682b66.setContent(html_14e5d3bee5749a92dcf6b845dcf5f808);
+            
+        
+
+        circle_marker_368bdf0adaa879904a696debe9dfe80d.bindPopup(popup_b86d6fde3df76d4704f91b6549682b66)
+        ;
+
+        
+    
+    
+            circle_marker_368bdf0adaa879904a696debe9dfe80d.bindTooltip(
+                `<div>
+                     Oklahoma: avg.days on market = 80.55
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_836bb29db7292f4d072a9a9fdb54bd91 = L.circleMarker(
+                [44.572021, -122.070938],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.370000000000001, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_21c097ac5d3a039cfed74d567a4b4781 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_180134c682e04c86b983cad94653dbc2 = $(`<div id="html_180134c682e04c86b983cad94653dbc2" style="width: 100.0%; height: 100.0%;"><b>Oregon</b><br>avg.days on market: 83.70</div>`)[0];
+                popup_21c097ac5d3a039cfed74d567a4b4781.setContent(html_180134c682e04c86b983cad94653dbc2);
+            
+        
+
+        circle_marker_836bb29db7292f4d072a9a9fdb54bd91.bindPopup(popup_21c097ac5d3a039cfed74d567a4b4781)
+        ;
+
+        
+    
+    
+            circle_marker_836bb29db7292f4d072a9a9fdb54bd91.bindTooltip(
+                `<div>
+                     Oregon: avg.days on market = 83.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a43bab273d657ad477b8f0eba7e2424 = L.circleMarker(
+                [40.590752, -77.209755],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.42, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_d66f33fd1b785c853d1506e210f49036 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5437b41a1705ec8417383ba48e9abcb9 = $(`<div id="html_5437b41a1705ec8417383ba48e9abcb9" style="width: 100.0%; height: 100.0%;"><b>Pennsylvania</b><br>avg.days on market: 54.20</div>`)[0];
+                popup_d66f33fd1b785c853d1506e210f49036.setContent(html_5437b41a1705ec8417383ba48e9abcb9);
+            
+        
+
+        circle_marker_9a43bab273d657ad477b8f0eba7e2424.bindPopup(popup_d66f33fd1b785c853d1506e210f49036)
+        ;
+
+        
+    
+    
+            circle_marker_9a43bab273d657ad477b8f0eba7e2424.bindTooltip(
+                `<div>
+                     Pennsylvania: avg.days on market = 54.20
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_34debbcfec2d6552aa6d148321e7d517 = L.circleMarker(
+                [35.747845, -86.692345],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.81, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_82a9137cbb4acae276dca31276d92bfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f56bb624d0b0c34aae06607940cc3d0 = $(`<div id="html_7f56bb624d0b0c34aae06607940cc3d0" style="width: 100.0%; height: 100.0%;"><b>Tennessee</b><br>avg.days on market: 78.10</div>`)[0];
+                popup_82a9137cbb4acae276dca31276d92bfa.setContent(html_7f56bb624d0b0c34aae06607940cc3d0);
+            
+        
+
+        circle_marker_34debbcfec2d6552aa6d148321e7d517.bindPopup(popup_82a9137cbb4acae276dca31276d92bfa)
+        ;
+
+        
+    
+    
+            circle_marker_34debbcfec2d6552aa6d148321e7d517.bindTooltip(
+                `<div>
+                     Tennessee: avg.days on market = 78.10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e009af3aeb150c99a697ee2615ce0869 = L.circleMarker(
+                [31.054487, -97.563461],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.87, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_93e182db9be060a5001ce2531642d7ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3b8befb1204bee655f0dc9a6512b634 = $(`<div id="html_c3b8befb1204bee655f0dc9a6512b634" style="width: 100.0%; height: 100.0%;"><b>Texas</b><br>avg.days on market: 78.70</div>`)[0];
+                popup_93e182db9be060a5001ce2531642d7ea.setContent(html_c3b8befb1204bee655f0dc9a6512b634);
+            
+        
+
+        circle_marker_e009af3aeb150c99a697ee2615ce0869.bindPopup(popup_93e182db9be060a5001ce2531642d7ea)
+        ;
+
+        
+    
+    
+            circle_marker_e009af3aeb150c99a697ee2615ce0869.bindTooltip(
+                `<div>
+                     Texas: avg.days on market = 78.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_701404b757cac7ba9ab967f719db083f = L.circleMarker(
+                [40.150032, -111.862434],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.63, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_3f4362bf99bede2d13bad4a400bee602 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6363d69b88143fc7f273d6b5f3adf985 = $(`<div id="html_6363d69b88143fc7f273d6b5f3adf985" style="width: 100.0%; height: 100.0%;"><b>Utah</b><br>avg.days on market: 76.30</div>`)[0];
+                popup_3f4362bf99bede2d13bad4a400bee602.setContent(html_6363d69b88143fc7f273d6b5f3adf985);
+            
+        
+
+        circle_marker_701404b757cac7ba9ab967f719db083f.bindPopup(popup_3f4362bf99bede2d13bad4a400bee602)
+        ;
+
+        
+    
+    
+            circle_marker_701404b757cac7ba9ab967f719db083f.bindTooltip(
+                `<div>
+                     Utah: avg.days on market = 76.30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_79f2c8b69fe22fe930eebff86b0755be = L.circleMarker(
+                [44.045876, -72.710686],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.445, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_2a9549f8304c7b5a137c8797627bed63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_744fe2a8440cfb0c71f0e72581276558 = $(`<div id="html_744fe2a8440cfb0c71f0e72581276558" style="width: 100.0%; height: 100.0%;"><b>Vermont</b><br>avg.days on market: 104.45</div>`)[0];
+                popup_2a9549f8304c7b5a137c8797627bed63.setContent(html_744fe2a8440cfb0c71f0e72581276558);
+            
+        
+
+        circle_marker_79f2c8b69fe22fe930eebff86b0755be.bindPopup(popup_2a9549f8304c7b5a137c8797627bed63)
+        ;
+
+        
+    
+    
+            circle_marker_79f2c8b69fe22fe930eebff86b0755be.bindTooltip(
+                `<div>
+                     Vermont: avg.days on market = 104.45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2fe5e3f2ac459e81f776c7c6e01ee9c9 = L.circleMarker(
+                [37.769337, -78.169968],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.2700000000000005, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_791acd946108dcfd2f383335b28a4806 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_022c7cf01ed0c66541addfdd5f407655 = $(`<div id="html_022c7cf01ed0c66541addfdd5f407655" style="width: 100.0%; height: 100.0%;"><b>Virginia</b><br>avg.days on market: 52.70</div>`)[0];
+                popup_791acd946108dcfd2f383335b28a4806.setContent(html_022c7cf01ed0c66541addfdd5f407655);
+            
+        
+
+        circle_marker_2fe5e3f2ac459e81f776c7c6e01ee9c9.bindPopup(popup_791acd946108dcfd2f383335b28a4806)
+        ;
+
+        
+    
+    
+            circle_marker_2fe5e3f2ac459e81f776c7c6e01ee9c9.bindTooltip(
+                `<div>
+                     Virginia: avg.days on market = 52.70
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6e20cc990e2868f9450ce053cc40c601 = L.circleMarker(
+                [47.400902, -121.490494],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.575, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_f72fd6e8e528edf12712c01b0bada1d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bb672212b12367fc2d89a027d29e824 = $(`<div id="html_4bb672212b12367fc2d89a027d29e824" style="width: 100.0%; height: 100.0%;"><b>Washington</b><br>avg.days on market: 65.75</div>`)[0];
+                popup_f72fd6e8e528edf12712c01b0bada1d4.setContent(html_4bb672212b12367fc2d89a027d29e824);
+            
+        
+
+        circle_marker_6e20cc990e2868f9450ce053cc40c601.bindPopup(popup_f72fd6e8e528edf12712c01b0bada1d4)
+        ;
+
+        
+    
+    
+            circle_marker_6e20cc990e2868f9450ce053cc40c601.bindTooltip(
+                `<div>
+                     Washington: avg.days on market = 65.75
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ce21b635f7be3d61792975a26c5d57f6 = L.circleMarker(
+                [44.268543, -89.616508],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.029999999999999, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_46699615a9b4cd1c7bc2b12f02b09440 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40e9fc638e5bc80b7ac8cb5f0fceeccc = $(`<div id="html_40e9fc638e5bc80b7ac8cb5f0fceeccc" style="width: 100.0%; height: 100.0%;"><b>Wisconsin</b><br>avg.days on market: 60.30</div>`)[0];
+                popup_46699615a9b4cd1c7bc2b12f02b09440.setContent(html_40e9fc638e5bc80b7ac8cb5f0fceeccc);
+            
+        
+
+        circle_marker_ce21b635f7be3d61792975a26c5d57f6.bindPopup(popup_46699615a9b4cd1c7bc2b12f02b09440)
+        ;
+
+        
+    
+    
+            circle_marker_ce21b635f7be3d61792975a26c5d57f6.bindTooltip(
+                `<div>
+                     Wisconsin: avg.days on market = 60.30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1576d4c49857f39a8c896398accc4091 = L.circleMarker(
+                [42.755966, -107.30249],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.61, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9c9e036dd337490bce30aede07c359ea);
+        
+    
+        var popup_f8af9d05b6b4c34d34218d31af692fd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f62f65c36d6cb78a462d7ae500a8ef07 = $(`<div id="html_f62f65c36d6cb78a462d7ae500a8ef07" style="width: 100.0%; height: 100.0%;"><b>Wyoming</b><br>avg.days on market: 106.10</div>`)[0];
+                popup_f8af9d05b6b4c34d34218d31af692fd9.setContent(html_f62f65c36d6cb78a462d7ae500a8ef07);
+            
+        
+
+        circle_marker_1576d4c49857f39a8c896398accc4091.bindPopup(popup_f8af9d05b6b4c34d34218d31af692fd9)
+        ;
+
+        
+    
+    
+            circle_marker_1576d4c49857f39a8c896398accc4091.bindTooltip(
+                `<div>
+                     Wyoming: avg.days on market = 106.10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_9c9e036dd337490bce30aede07c359ea.addTo(map_e09bafa6fe5e2f9c5a54eddba909b4e5);
+        
+    
+            var layer_control_3b9350c986c1ff7eb44006b44b233d0d_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_6a098336f0888819130f2eaebfc34e0a,
+                },
+                overlays :  {
+                    "avg.list price" : feature_group_0b6c488830974639b31204c1ae74f41a,
+                    "avg.price/sqft" : feature_group_8183a5a95c60553d0d667f59f93902a6,
+                    "avg.days on market" : feature_group_9c9e036dd337490bce30aede07c359ea,
+                },
+            };
+            let layer_control_3b9350c986c1ff7eb44006b44b233d0d = L.control.layers(
+                layer_control_3b9350c986c1ff7eb44006b44b233d0d_layers.base_layers,
+                layer_control_3b9350c986c1ff7eb44006b44b233d0d_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_e09bafa6fe5e2f9c5a54eddba909b4e5);
+
+        
+</script>
+</html>
